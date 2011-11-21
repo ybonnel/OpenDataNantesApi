@@ -21,7 +21,7 @@ import org.xml.sax.helpers.DefaultHandler;
 
 /**
  * Handler pour les appels à l'API.
- *
+ * @param <T> Objet xml.
  * @author ybonnel
  */
 public abstract class ApiHandler<T> extends DefaultHandler {

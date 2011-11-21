@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<opendata>
+	<request>http://data.nantes.fr/api/getDisponibiliteParkingsPublics/1.0/39W9VSNCSASEOGV</request>
+	<answer>
+		<status code="0" message="OK"/>
+		<data><Groupes_Parking>
+<Groupe_Parking>
+
+	<Grp_identifiant>1</Grp_identifiant>
+
+	<Grp_nom>NEPTUNE</Grp_nom>
+
+	<Grp_statut>0</Grp_statut>
+
+	<Grp_pri_aut>0</Grp_pri_aut>
+
+	<Grp_disponible>0</Grp_disponible>
+
+	<Grp_complet>0</Grp_complet>
+
+	<Grp_exploitation>0</Grp_exploitation>
+
+	<Grp_horodatage>21/11/2011 20:18:40</Grp_horodatage>
+
+</Groupe_Parking>
+
+<Groupe_Parking>
+
+	<Grp_identifiant>2</Grp_identifiant>
+
+	<Grp_nom>DECRE-BOUFFAY</Grp_nom>
+
+	<Grp_statut>5</Grp_statut>
+
+	<Grp_pri_aut>0</Grp_pri_aut>
+
+	<Grp_disponible>359</Grp_disponible>
+
+	<Grp_complet>2</Grp_complet>
+
+	<Grp_exploitation>552</Grp_exploitation>
+
+	<Grp_horodatage>21/11/2011 20:18:40</Grp_horodatage>
+
+</Groupe_Parking>
+
+</Groupes_Parking></data>
+	</answer>
+</opendata>

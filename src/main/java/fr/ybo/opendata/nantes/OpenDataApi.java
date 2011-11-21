@@ -16,7 +16,9 @@ package fr.ybo.opendata.nantes;
 import fr.ybo.opendata.nantes.exceptions.ApiException;
 import fr.ybo.opendata.nantes.exceptions.ApiReseauException;
 import fr.ybo.opendata.nantes.modele.Answer;
+import fr.ybo.opendata.nantes.modele.Parking;
 import fr.ybo.opendata.nantes.sax.ApiHandler;
+import fr.ybo.opendata.nantes.sax.GenericHandler;
 import fr.ybo.opendata.nantes.util.Connecteur;
 import fr.ybo.opendata.nantes.util.HttpConnecteur;
 import org.xml.sax.SAXException;
@@ -73,11 +75,27 @@ public class OpenDataApi {
     private final String key;
 
     /**
+     * Commande pour récupérer les parkings.
+     */
+    private static final String CMD_PARKINGS = "getDisponibiliteParkingsPublics";
+
+    /**
+     * Cette commande permet de récupérer les informations concernant la disponibilité des parkings publics de
+     * l'agglomération nantaise.
+     *
+     * @return la liste des parkings.
+     * @throws ApiReseauException problème réseaux.
+     */
+    public List<Parking> getParkings() throws ApiReseauException {
+        return appelApi(getUrl(CMD_PARKINGS), new GenericHandler<Parking>(Parking.class));
+    }
+
+    /**
      * @param <T>     type d'objet OpenDataApi.
      * @param url     url.
      * @param handler handler.
      * @return liste d'objets OpenDataApi.
-     * @throws fr.ybo.opendata.nantes.exceptions.ApiReseauException en cas d'erreur réseau.
+     * @throws ApiReseauException en cas d'erreur réseau.
      */
     private <T> List<T> appelApi(String url, ApiHandler<T> handler) throws ApiReseauException {
         Answer<T> answer;
