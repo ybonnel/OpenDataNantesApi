@@ -16,6 +16,7 @@ package fr.ybo.opendata.nantes;
 
 
 import fr.ybo.opendata.nantes.exceptions.ApiReseauException;
+import fr.ybo.opendata.nantes.modele.InfoTrafic;
 import fr.ybo.opendata.nantes.modele.Parking;
 import fr.ybo.opendata.nantes.modele.StatutParking;
 import org.junit.Before;
@@ -26,6 +27,8 @@ import java.text.SimpleDateFormat;
 import java.util.List;
 
 import static junit.framework.Assert.assertEquals;
+import static junit.framework.Assert.assertFalse;
+import static junit.framework.Assert.assertTrue;
 
 /**
  * Test de la classe {@link OpenDataApi}.
@@ -47,8 +50,9 @@ public class OpenDataApiTest {
 
     /**
      * Test de la méthode {@link OpenDataApi#getParkings()}.
+     *
      * @throws ApiReseauException problème réseaux.
-     * @throws ParseException problème.
+     * @throws ParseException     problème.
      */
     @Test
     public void testGetParkings() throws ApiReseauException, ParseException {
@@ -86,5 +90,36 @@ public class OpenDataApiTest {
      * Places totales.
      */
     private static final int PLACES = 552;
+
+    /**
+     * Test de la méthode {@link OpenDataApi#getInfosTrafics()}.
+     *
+     * @throws ApiReseauException problème réseaux.
+     * @throws ParseException     problème.
+     */
+    @Test
+    public void testGetInfosTrafics() throws ApiReseauException, ParseException {
+        openDataApi.setConnecteur(new FileConnecteur("/getInfoTraficTANPrevisionnel.xml"));
+
+        List<InfoTrafic> infosTrafics = openDataApi.getInfosTrafics();
+        assertEquals(2, infosTrafics.size());
+        InfoTrafic infoTrafic1 = infosTrafics.get(0);
+        assertEquals("1321603576591", infoTrafic1.getCode());
+        assertEquals("Réfection chaussée rue Santos Dumont", infoTrafic1.getIntitule());
+        assertEquals(
+                "En raison de travaux rue Santos Dumont la ligne 96 est déviée le 22 et 23 novembre 2011.",
+                infoTrafic1.getResume());
+        assertEquals(infoTrafic1.getResume(), infoTrafic1.getTexteVocal());
+        SimpleDateFormat formatDate = new SimpleDateFormat("dd/MM/yyyy hh:mm");
+        assertEquals(formatDate.parse("22/11/2011 00:00"), infoTrafic1.getDateDebut());
+        assertEquals(formatDate.parse("23/11/2011 23:59"), infoTrafic1.getDateFin());
+        assertFalse(infoTrafic1.isTerminee());
+        assertEquals("[96/-/-/-]", infoTrafic1.getTroncons());
+
+        InfoTrafic infoTrafic2 = infosTrafics.get(1);
+        assertEquals(formatDate.parse("22/11/2011 10:30"), infoTrafic2.getDateDebut());
+        assertEquals(formatDate.parse("22/11/2011 16:00"), infoTrafic2.getDateFin());
+        assertTrue(infoTrafic2.isTerminee());
+    }
 
 }

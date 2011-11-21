@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<opendata>
+    <request>http://data.nantes.fr/api/getInfoTraficTANPrevisionnel/1.0/39W9VSNCSASEOGV</request>
+    <answer>
+        <status code="0" message="OK"/>
+        <data>
+            <ROOT>
+                <LISTE_INFOTRAFICS>
+                    <INFOTRAFIC>
+                        <CODE>1321603576591</CODE>
+                        <LANGUE>0</LANGUE>
+                        <INTITULE>Réfection chaussée rue Santos Dumont</INTITULE>
+                        <RESUME>En raison de travaux rue Santos Dumont la ligne 96 est déviée le 22 et 23 novembre 2011.</RESUME>
+                        <TEXTE_VOCAL>En raison de travaux rue Santos Dumont la ligne 96 est déviée le 22 et 23 novembre 2011.</TEXTE_VOCAL>
+                        <DATE_DEBUT>22/11/2011</DATE_DEBUT>
+                        <DATE_FIN>23/11/2011</DATE_FIN>
+                        <HEURE_DEBUT/>
+                        <HEURE_FIN/>
+                        <PERTURBATION_TERMINEE>0</PERTURBATION_TERMINEE>
+                        <TRONCONS>[96/-/-/-]</TRONCONS>
+                    </INFOTRAFIC>
+                    <INFOTRAFIC>
+                        <CODE>1321604300258</CODE>
+                        <LANGUE>0</LANGUE>
+                        <INTITULE>Travaux Place de l'Edit de Nantes</INTITULE>
+                        <RESUME>En raison travaux Place de l'Edit de Nantes les lignes 21, 23 et 56 sont déviées le mardi 22 novembre 2011.</RESUME>
+                        <TEXTE_VOCAL>En raison travaux Place de l'Edit de Nantes les lignes 21, 23 et 56 sont déviées le mardi 22 novembre 2011.
+                        </TEXTE_VOCAL>
+                        <DATE_DEBUT>22/11/2011</DATE_DEBUT>
+                        <DATE_FIN>22/11/2011</DATE_FIN>
+                        <HEURE_DEBUT>10:30</HEURE_DEBUT>
+                        <HEURE_FIN>16:00</HEURE_FIN>
+                        <PERTURBATION_TERMINEE>1</PERTURBATION_TERMINEE>
+                        <TRONCONS>[21/-/-/-];[23/-/-/-];[56/-/-/-]</TRONCONS>
+                    </INFOTRAFIC>
+                </LISTE_INFOTRAFICS>
+            </ROOT>
+        </data>
+    </answer>
+</opendata>

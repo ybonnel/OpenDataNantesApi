@@ -16,6 +16,7 @@ package fr.ybo.opendata.nantes;
 import fr.ybo.opendata.nantes.exceptions.ApiException;
 import fr.ybo.opendata.nantes.exceptions.ApiReseauException;
 import fr.ybo.opendata.nantes.modele.Answer;
+import fr.ybo.opendata.nantes.modele.InfoTrafic;
 import fr.ybo.opendata.nantes.modele.Parking;
 import fr.ybo.opendata.nantes.sax.ApiHandler;
 import fr.ybo.opendata.nantes.sax.GenericHandler;
@@ -88,6 +89,21 @@ public class OpenDataApi {
      */
     public List<Parking> getParkings() throws ApiReseauException {
         return appelApi(getUrl(CMD_PARKINGS), new GenericHandler<Parking>(Parking.class));
+    }
+
+    /**
+     * Commande pour récupérer les infoTrafics.
+     */
+    private static final String CMD_INFOS_TRAFICS = "getInfoTraficTANPrevisionnel";
+
+    /**
+     * Cette commande permet de récupérer l'info trafic prévisionnel des bus et tramway de la SEMITAN.
+     *
+     * @return la liste des infos trafics.
+     * @throws ApiReseauException problème réseaux.
+     */
+    public List<InfoTrafic> getInfosTrafics() throws ApiReseauException {
+        return appelApi(getUrl(CMD_INFOS_TRAFICS), new GenericHandler<InfoTrafic>(InfoTrafic.class));
     }
 
     /**
