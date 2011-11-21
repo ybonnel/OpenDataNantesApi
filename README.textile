@@ -1,0 +1,9 @@
+h1. OpenDataNantesApi
+
+Il s'agit d'un librairie Java pour permettre l'accès aux API temps réelles du site data.nantes.fr
+
+h1. License
+
+L'ensemble du code source est sous "LGPL v3":http://www.gnu.org/licenses/lgpl-3.0.html.
+
+
