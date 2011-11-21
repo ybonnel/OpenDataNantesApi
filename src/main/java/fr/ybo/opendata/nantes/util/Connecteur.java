@@ -28,7 +28,7 @@ public interface Connecteur {
      *
      * @param url l'url.
      * @return l'inputStream associé.
-     * @throws fr.ybo.opendata.nantes.exceptions.ApiReseauException si un problème réseaux est rencontré.
+     * @throws ApiReseauException si un problème réseaux est rencontré.
      */
     InputStream openInputStream(String url) throws ApiReseauException;
 

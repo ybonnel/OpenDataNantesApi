@@ -30,6 +30,7 @@ import javax.xml.parsers.SAXParserFactory;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
+import java.util.logging.Logger;
 
 /**
  * Classe d'accés aux API OpenData de nantes.
@@ -37,6 +38,11 @@ import java.util.List;
  * @author ybonnel
  */
 public class OpenDataApi {
+
+    /**
+     * Logger.
+     */
+    private static final Logger LOGGER = Logger.getLogger(OpenDataApi.class.getSimpleName());
 
     /**
      * URL d'accés au API OpenDataApi.
@@ -126,7 +132,8 @@ public class OpenDataApi {
             } finally {
                 try {
                     inputStream.close();
-                } catch (Exception ignore) {
+                } catch (Exception exception) {
+                    LOGGER.warning(exception.getMessage());
                 }
             }
         } catch (IOException ioException) {

@@ -7,12 +7,17 @@ import fr.ybo.opendata.nantes.sax.BaliseXml;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.logging.Logger;
 
 /**
  * Classe Parking.
  */
 @BaliseData("Groupe_Parking")
 public class Parking {
+    /**
+     * Logger.
+     */
+    private static final Logger LOGGER = Logger.getLogger(Parking.class.getSimpleName());
     /**
      * Identifiant du parking.
      */
@@ -173,7 +178,8 @@ public class Parking {
     public void setLastUpdate(String lastUpdate) {
         try {
             this.lastUpdate = SDF_DATE.parse(lastUpdate);
-        } catch (ParseException ignore) {
+        } catch (ParseException exception) {
+            LOGGER.warning(exception.getMessage());
         }
     }
 }
