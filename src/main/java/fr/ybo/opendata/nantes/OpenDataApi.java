@@ -113,6 +113,21 @@ public class OpenDataApi {
     }
 
     /**
+     * Commande pour récupérer les infoTrafics Temps Réel.
+     */
+    private static final String CMD_INFOS_TRAFICS_TPS_REEL = "getInfoTraficTANTempsReel";
+
+    /**
+     * Cette commande permet de récupérer l'info trafic en temps réel des bus et tramway de la SEMITAN.
+     *
+     * @return la liste des infos trafics.
+     * @throws ApiReseauException problème réseaux.
+     */
+    public List<InfoTrafic> getInfosTraficsTpsReel() throws ApiReseauException {
+        return appelApi(getUrl(CMD_INFOS_TRAFICS_TPS_REEL), new GenericHandler<InfoTrafic>(InfoTrafic.class));
+    }
+
+    /**
      * @param <T>     type d'objet OpenDataApi.
      * @param url     url.
      * @param handler handler.

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<opendata>
+    <request>http://data.nantes.fr/api/getInfoTraficTANTempsReel/1.0/39W9VSNCSASEOGV</request>
+    <answer>
+        <status code="0" message="OK"/>
+        <data>
+            <ROOT>
+                <LISTE_INFOTRAFICS>
+                    <INFOTRAFIC>
+                        <CODE>1288273473818</CODE>
+                        <LANGUE>0</LANGUE>
+                        <INTITULE>Travaux Boulevard Marcel Paul</INTITULE>
+                        <RESUME>En raison de travaux sur le Bd Marcel Paul les lignes de bus 73, 84 et 93 sont déviées dans les deux sens.</RESUME>
+                        <TEXTE_VOCAL>En raison de travaux sur le Bd Marcel Paul les lignes de bus 73, 84 et 93 sont déviées dans les deux sens.</TEXTE_VOCAL>
+                        <DATE_DEBUT>28/10/2010</DATE_DEBUT>
+                        <DATE_FIN/>
+                        <HEURE_DEBUT/>
+                        <HEURE_FIN/>
+                        <PERTURBATION_TERMINEE>0</PERTURBATION_TERMINEE>
+                        <TRONCONS/>
+                    </INFOTRAFIC>
+                    <INFOTRAFIC>
+                        <CODE>93581925</CODE>
+                        <LANGUE>0</LANGUE>
+                        <INTITULE>Travaux Haluchère 2012</INTITULE>
+                        <RESUME>Fermeture temporaire du P+R Haluchère à partir du 31 janvier 2011</RESUME>
+                        <TEXTE_VOCAL>Fermeture temporaire du P+R Haluchère à partir du 31 janvier 2011</TEXTE_VOCAL>
+                        <DATE_DEBUT>31/01/2011</DATE_DEBUT>
+                        <DATE_FIN>31/12/2012</DATE_FIN>
+                        <HEURE_DEBUT>10:00</HEURE_DEBUT>
+                        <HEURE_FIN>16:00</HEURE_FIN>
+                        <PERTURBATION_TERMINEE>1</PERTURBATION_TERMINEE>
+                        <TRONCONS>[PR/1/-/-]</TRONCONS>
+                    </INFOTRAFIC>
+                </LISTE_INFOTRAFICS>
+            </ROOT>
+        </data>
+    </answer>
+</opendata>

@@ -26,9 +26,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.List;
 
-import static junit.framework.Assert.assertEquals;
-import static junit.framework.Assert.assertFalse;
-import static junit.framework.Assert.assertTrue;
+import static junit.framework.Assert.*;
 
 /**
  * Test de la classe {@link OpenDataApi}.
@@ -120,6 +118,38 @@ public class OpenDataApiTest {
         assertEquals(formatDate.parse("22/11/2011 10:30"), infoTrafic2.getDateDebut());
         assertEquals(formatDate.parse("22/11/2011 16:00"), infoTrafic2.getDateFin());
         assertTrue(infoTrafic2.isTerminee());
+    }
+
+    /**
+     * Test de la méthode {@link fr.ybo.opendata.nantes.OpenDataApi#getInfosTraficsTpsReel()}.
+     *
+     * @throws ApiReseauException problème réseaux.
+     * @throws ParseException     problème.
+     */
+    @Test
+    public void testGetInfosTraficsTpsReel() throws ApiReseauException, ParseException {
+        openDataApi.setConnecteur(new FileConnecteur("/getInfoTraficTANTempsReel.xml"));
+
+        List<InfoTrafic> infosTrafics = openDataApi.getInfosTrafics();
+        assertEquals(2, infosTrafics.size());
+        InfoTrafic infoTrafic1 = infosTrafics.get(0);
+        assertEquals("1288273473818", infoTrafic1.getCode());
+        assertEquals("Travaux Boulevard Marcel Paul", infoTrafic1.getIntitule());
+        assertEquals(
+                "En raison de travaux sur le Bd Marcel Paul les lignes de bus 73, 84 et 93 sont déviées dans les deux sens.",
+                infoTrafic1.getResume());
+        assertEquals(infoTrafic1.getResume(), infoTrafic1.getTexteVocal());
+        SimpleDateFormat formatDate = new SimpleDateFormat("dd/MM/yyyy hh:mm");
+        assertEquals(formatDate.parse("28/10/2010 00:00"), infoTrafic1.getDateDebut());
+        assertNull(infoTrafic1.getDateFin());
+        assertFalse(infoTrafic1.isTerminee());
+        assertNull(infoTrafic1.getTroncons());
+
+        InfoTrafic infoTrafic2 = infosTrafics.get(1);
+        assertEquals(formatDate.parse("31/01/2011 10:00"), infoTrafic2.getDateDebut());
+        assertEquals(formatDate.parse("31/12/2012 16:00"), infoTrafic2.getDateFin());
+        assertTrue(infoTrafic2.isTerminee());
+        assertEquals("[PR/1/-/-]", infoTrafic2.getTroncons());
     }
 
 }
