@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
 
-<coverage line-rate="0.8008658008658008" branch-rate="0.75" lines-covered="185" lines-valid="231" branches-covered="33" branches-valid="44" complexity="1.6097560975609757" version="1.9.4.1" timestamp="1321977933086">
+<coverage line-rate="0.8008658008658008" branch-rate="0.75" lines-covered="185" lines-valid="231" branches-covered="33" branches-valid="44" complexity="1.6097560975609757" version="1.9.4.1" timestamp="1321979044862">
 	<sources>
 		<source>--source</source>
 		<source>/scratch/hudson/workspace/OpenDataNantesApi-release/src/main/java</source>
