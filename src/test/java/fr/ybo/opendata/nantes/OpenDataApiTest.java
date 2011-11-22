@@ -17,6 +17,7 @@ package fr.ybo.opendata.nantes;
 
 import fr.ybo.opendata.nantes.exceptions.ApiReseauException;
 import fr.ybo.opendata.nantes.modele.InfoTrafic;
+import fr.ybo.opendata.nantes.modele.Itineraire;
 import fr.ybo.opendata.nantes.modele.Parking;
 import fr.ybo.opendata.nantes.modele.StatutParking;
 import org.junit.Before;
@@ -26,7 +27,10 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.List;
 
-import static junit.framework.Assert.*;
+import static junit.framework.Assert.assertEquals;
+import static junit.framework.Assert.assertFalse;
+import static junit.framework.Assert.assertNull;
+import static junit.framework.Assert.assertTrue;
 
 /**
  * Test de la classe {@link OpenDataApi}.
@@ -104,8 +108,7 @@ public class OpenDataApiTest {
         InfoTrafic infoTrafic1 = infosTrafics.get(0);
         assertEquals("1321603576591", infoTrafic1.getCode());
         assertEquals("Réfection chaussée rue Santos Dumont", infoTrafic1.getIntitule());
-        assertEquals(
-                "En raison de travaux rue Santos Dumont la ligne 96 est déviée le 22 et 23 novembre 2011.",
+        assertEquals("En raison de travaux rue Santos Dumont la ligne 96 est déviée le 22 et 23 novembre 2011.",
                 infoTrafic1.getResume());
         assertEquals(infoTrafic1.getResume(), infoTrafic1.getTexteVocal());
         SimpleDateFormat formatDate = new SimpleDateFormat("dd/MM/yyyy hh:mm");
@@ -121,7 +124,7 @@ public class OpenDataApiTest {
     }
 
     /**
-     * Test de la méthode {@link fr.ybo.opendata.nantes.OpenDataApi#getInfosTraficsTpsReel()}.
+     * Test de la méthode {@link OpenDataApi#getInfosTraficsTpsReel()}.
      *
      * @throws ApiReseauException problème réseaux.
      * @throws ParseException     problème.
@@ -135,9 +138,8 @@ public class OpenDataApiTest {
         InfoTrafic infoTrafic1 = infosTrafics.get(0);
         assertEquals("1288273473818", infoTrafic1.getCode());
         assertEquals("Travaux Boulevard Marcel Paul", infoTrafic1.getIntitule());
-        assertEquals(
-                "En raison de travaux sur le Bd Marcel Paul les lignes de bus 73, 84 et 93 sont déviées dans les deux sens.",
-                infoTrafic1.getResume());
+        assertEquals("En raison de travaux sur le Bd Marcel Paul les lignes de bus 73, 84 et 93 "
+                + "sont déviées dans les deux sens.", infoTrafic1.getResume());
         assertEquals(infoTrafic1.getResume(), infoTrafic1.getTexteVocal());
         SimpleDateFormat formatDate = new SimpleDateFormat("dd/MM/yyyy hh:mm");
         assertEquals(formatDate.parse("28/10/2010 00:00"), infoTrafic1.getDateDebut());
@@ -151,5 +153,31 @@ public class OpenDataApiTest {
         assertTrue(infoTrafic2.isTerminee());
         assertEquals("[PR/1/-/-]", infoTrafic2.getTroncons());
     }
+
+    /**
+     * Test de la méthode {@link OpenDataApi#getTempsParcours()}.
+     *
+     * @throws ApiReseauException problème réseaux.
+     * @throws ParseException     problème.
+     */
+    @Test
+    public void testGetTempsParcours() throws ApiReseauException, ParseException {
+            openDataApi.setConnecteur(new FileConnecteur("/getTempsParcours.xml"));
+
+        SimpleDateFormat formatDate = new SimpleDateFormat("dd/MM/yyyy hh:mm:ss");
+        List<Itineraire> itineraires = openDataApi.getTempsParcours();
+        assertEquals(2, itineraires.size());
+        assertEquals("011", itineraires.get(0).getIdentifiant());
+        assertEquals(TEMPS_PARCOURS, itineraires.get(0).getTemps());
+        assertTrue(itineraires.get(0).isValide());
+        assertEquals(formatDate.parse("22/11/2011 10:57:06"), itineraires.get(0).getLastUpdate());
+
+        assertFalse(itineraires.get(1).isValide());
+    }
+
+    /**
+     * Temps de parcours.
+     */
+    private static final int TEMPS_PARCOURS = 11;
 
 }

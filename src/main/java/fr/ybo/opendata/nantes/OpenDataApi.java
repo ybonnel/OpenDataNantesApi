@@ -17,6 +17,7 @@ import fr.ybo.opendata.nantes.exceptions.ApiException;
 import fr.ybo.opendata.nantes.exceptions.ApiReseauException;
 import fr.ybo.opendata.nantes.modele.Answer;
 import fr.ybo.opendata.nantes.modele.InfoTrafic;
+import fr.ybo.opendata.nantes.modele.Itineraire;
 import fr.ybo.opendata.nantes.modele.Parking;
 import fr.ybo.opendata.nantes.sax.ApiHandler;
 import fr.ybo.opendata.nantes.sax.GenericHandler;
@@ -125,6 +126,21 @@ public class OpenDataApi {
      */
     public List<InfoTrafic> getInfosTraficsTpsReel() throws ApiReseauException {
         return appelApi(getUrl(CMD_INFOS_TRAFICS_TPS_REEL), new GenericHandler<InfoTrafic>(InfoTrafic.class));
+    }
+
+    /**
+     * Commande pour récupérer les temps de itinéraires.
+     */
+    private static final String CMD_PARCOURS = "getTempsParcours";
+
+    /**
+     * Indication des temps de parcours en minutes sur chaque itinéraire.
+     *
+     * @return la liste des itinéraires.
+     * @throws ApiReseauException problème réseaux.
+     */
+    public List<Itineraire> getTempsParcours() throws ApiReseauException {
+        return appelApi(getUrl(CMD_PARCOURS), new GenericHandler<Itineraire>(Itineraire.class));
     }
 
     /**

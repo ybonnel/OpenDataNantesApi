@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<opendata>
+    <request>http://data.nantes.fr/api/getTempsParcours/1.0/39W9VSNCSASEOGV</request>
+    <answer>
+        <status code="0" message="OK"/>
+        <data>
+            <Itineraires>
+                <Itineraire>
+                    <!-- VER=1.0 GEN=FARECO_VEGATP -->
+                    <Identifiant>011</Identifiant>
+                    <Temps>11</Temps>
+                    <Validite>1</Validite>
+                    <Horodatage>22/11/2011 10:57:06</Horodatage>
+                </Itineraire>
+                <Itineraire>
+                    <!-- VER=1.0 GEN=FARECO_VEGATP -->
+                    <Identifiant>012</Identifiant>
+                    <Temps>4</Temps>
+                    <Validite>0</Validite>
+                    <Horodatage>22/11/2011 10:57:06</Horodatage>
+                </Itineraire>
+            </Itineraires>
+        </data>
+    </answer>
+</opendata>
