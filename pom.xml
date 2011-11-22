@@ -4,7 +4,7 @@
     <groupId>fr.ybo</groupId>
     <artifactId>open-data-nantes-api</artifactId>
     <packaging>jar</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <name>open-data-nantes-api</name>
     <url>https://github.com/ybonnel/OpenDataNantesApi</url>
     <description>Une librairie pour accéder aux API temps réel de data.nantes.fr</description>
