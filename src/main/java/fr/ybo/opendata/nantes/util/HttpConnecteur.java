@@ -41,6 +41,7 @@ public class HttpConnecteur implements Connecteur {
             URLConnection connection = myUrl.openConnection();
             connection.setConnectTimeout(CONNECT_TIMEOUT);
             connection.setReadTimeout(READ_TIMEOUT);
+			connection.addRequestProperty("Accept", "application/xml");
             return connection.getInputStream();
         } catch (IOException socketException) {
             throw new ApiReseauException(socketException);

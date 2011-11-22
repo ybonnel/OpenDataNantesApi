@@ -29,6 +29,7 @@ import java.util.List;
 
 import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertFalse;
+import static junit.framework.Assert.assertNotNull;
 import static junit.framework.Assert.assertNull;
 import static junit.framework.Assert.assertTrue;
 
@@ -179,5 +180,16 @@ public class OpenDataApiTest {
      * Temps de parcours.
      */
     private static final int TEMPS_PARCOURS = 11;
+
+    /**
+     * Test en passant vraiment pas la couche http.
+     * @throws ApiReseauException problème réseaux.
+     */
+    public void testHttp() throws ApiReseauException {
+        openDataApi = new OpenDataApi("QB1ANX3ARXFI3AS");
+        List<InfoTrafic> infosTrafics = openDataApi.getInfosTrafics();
+        assertNotNull(infosTrafics);
+        assertFalse(infosTrafics.isEmpty());
+    }
 
 }
