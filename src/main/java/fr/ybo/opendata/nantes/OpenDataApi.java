@@ -32,9 +32,10 @@ import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.Collections;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 import java.util.logging.Logger;
 
 /**
@@ -102,9 +103,17 @@ public class OpenDataApi {
         List<Parking> parkings = appelApi(getUrl(CMD_PARKINGS), new GenericHandler<Parking>(Parking.class));
         // On enleve les parkings "invalides".
         Iterator<Parking> iterator = parkings.iterator();
+        Set<String> identifiants = new HashSet<String>();
         while (iterator.hasNext()) {
-            if (iterator.next().getStatut() == StatutParking.INVALIDE) {
+            Parking parking = iterator.next();
+            if (parking.getStatut() == StatutParking.INVALIDE) {
                 iterator.remove();
+            } else {
+                if (identifiants.contains(parking.getIdentifiant())) {
+                    iterator.remove();
+                } else {
+                    identifiants.add(parking.getIdentifiant());
+                }
             }
         }
         EquipementManager.getInstance().completeParkings(parkings);
