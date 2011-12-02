@@ -203,9 +203,11 @@ public class OpenDataApiTest {
         for (Parking parking : parkings) {
             if (parking.getLatitude() == null) {
                 erreur = true;
-                message.append("Le parking ");
+                message.append("Le parking id(");
                 message.append(parking.getIdentifiant());
-                message.append(" n'a pas de latitude");
+                message.append(") nom(");
+                message.append(parking.getNom());
+                message.append(") n'a pas de latitude\n");
             }
         }
         assertFalse(message.toString(), erreur);
