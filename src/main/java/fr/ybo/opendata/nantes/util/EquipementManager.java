@@ -8,6 +8,7 @@ import fr.ybo.opendata.nantes.modele.Parking;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -78,7 +79,7 @@ public class EquipementManager {
         if (mapEquipements == null) {
             mapEquipements = new HashMap<String, Equipement>();
             MoteurCsv moteurCsv = new MoteurCsv(Arrays.asList(MappingEquipement.class, Equipement.class));
-            Map<String, String> mapIds = new HashMap<String, String>();
+            Map<String, List<String>> mapIds = new HashMap<String, List<String>>();
             BufferedReader bufferedReader = new BufferedReader(
                     new InputStreamReader(EquipementManager.class.getResourceAsStream("/mappingEquip.csv")));
             try {
@@ -115,20 +116,23 @@ public class EquipementManager {
         /**
          * Map des ids à remplir.
          */
-        private Map<String, String> mapIds;
+        private Map<String, List<String>> mapIds;
 
         /**
          * Contructeur.
          *
          * @param mapIds map des ids à remplir.
          */
-        private MappingEquipementInsertObject(Map<String, String> mapIds) {
+        private MappingEquipementInsertObject(Map<String, List<String>> mapIds) {
             this.mapIds = mapIds;
         }
 
         @Override
-        public void insertObject(MappingEquipement mappingEquipement) {
-            mapIds.put(mappingEquipement.getIdObj(), mappingEquipement.getIdentifiant());
+        public void insertObject(MappingEquipement objet) {
+            if (!mapIds.containsKey(objet.getIdObj())) {
+                mapIds.put(objet.getIdObj(), new ArrayList<String>());
+            }
+            mapIds.get(objet.getIdObj()).add(objet.getIdentifiant());
         }
     }
 
@@ -139,7 +143,7 @@ public class EquipementManager {
         /**
          * Map des ids à remplir.
          */
-        private final Map<String, String> mapIds;
+        private final Map<String, List<String>> mapIds;
         /**
          * Map des equipements.
          */
@@ -151,15 +155,17 @@ public class EquipementManager {
          * @param mapIds         map des ids.
          * @param mapEquipements map des équipements.
          */
-        private EquipementInsertObject(Map<String, String> mapIds, Map<String, Equipement> mapEquipements) {
+        private EquipementInsertObject(Map<String, List<String>> mapIds, Map<String, Equipement> mapEquipements) {
             this.mapIds = mapIds;
             this.mapEquipements = mapEquipements;
         }
 
         @Override
-        public void insertObject(Equipement equipement) {
-            if (mapIds.containsKey(equipement.getIdObj())) {
-                mapEquipements.put(mapIds.get(equipement.getIdObj()), equipement);
+        public void insertObject(Equipement objet) {
+            if (mapIds.containsKey(objet.getIdObj())) {
+                for (String identifiant : mapIds.get(objet.getIdObj())) {
+                    mapEquipements.put(identifiant, objet);
+                }
             }
         }
     }
