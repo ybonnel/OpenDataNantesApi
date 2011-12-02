@@ -1,5 +1,5 @@
 -classpath
-'/scratch/hudson/workspace/OpenDataNantesApi-release/target/classes'
+'/scratch/hudson/workspace/OpenDataNantesApi-release/target/classes:/scratch/hudson/workspace/OpenDataNantesApi-release/.repository/fr/ybo/moteurcsv/1.0.3/moteurcsv-1.0.3.jar'
 -encoding
 'UTF-8'
 -public
@@ -15,7 +15,7 @@
 -docencoding
 'UTF-8'
 -doctitle
-'open-data-nantes-api 1.0 API'
+'open-data-nantes-api 1.1 API'
 -link
 'http://java.sun.com/j2se/1.6.0/docs/api'
 -linkoffline
@@ -23,4 +23,4 @@
 -use
 -version
 -windowtitle
-'open-data-nantes-api 1.0 API'
+'open-data-nantes-api 1.1 API'

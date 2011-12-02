@@ -42,7 +42,7 @@
   
     
             <div class="xleft">
-        Last Published: 2011-11-22
+        Last Published: 2011-12-02
                       </div>
             <div class="xright">            <a href="">open-data-nantes-api</a>
             
@@ -181,6 +181,20 @@
     <div id="bodyColumn">
       <div id="contentBox">
         <div class="section"><h2>Project Dependencies</h2>
+<div class="section"><h3>compile</h3>
+<p>The following is a list of compile dependencies for this project. These dependencies are required to compile and run the application:</p>
+<table class="bodyTable"><tr class="a"><th>GroupId</th>
+<th>ArtifactId</th>
+<th>Version</th>
+<th>Type</th>
+</tr>
+<tr class="b"><td>fr.ybo</td>
+<td><a href="https://github.com/ybonnel/MoteurCsv" class="externalLink">moteurcsv</a></td>
+<td>1.0.3</td>
+<td>jar</td>
+</tr>
+</table>
+</div>
 <div class="section"><h3>test</h3>
 <p>The following is a list of test dependencies for this project. These dependencies are only required to compile and run unit tests for the application:</p>
 <table class="bodyTable"><tr class="a"><th>GroupId</th>
@@ -189,7 +203,7 @@
 <th>Type</th>
 </tr>
 <tr class="b"><td>junit</td>
-<td><a class="externalLink" href="http://junit.org">junit</a></td>
+<td><a href="http://junit.org" class="externalLink">junit</a></td>
 <td>4.8.2</td>
 <td>jar</td>
 </tr>
@@ -218,19 +232,28 @@
       }
 </script>
 <div class="section"><h3>Dependency Tree</h3>
-<ul><li>fr.ybo:open-data-nantes-api:jar:1.0 <img id="_111626138" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_1142371172', '_111626138' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_1142371172" style="display:none"><table class="bodyTable"><tr class="a"><th>open-data-nantes-api</th>
+<ul><li>fr.ybo:open-data-nantes-api:jar:1.1 <img id="_816318567" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_828658240', '_816318567' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_828658240" style="display:none"><table class="bodyTable"><tr class="a"><th>open-data-nantes-api</th>
 </tr>
 <tr class="b"><td><p><b>Description: </b>Une librairie pour accéder aux API temps réel de data.nantes.fr</p>
-<p><b>URL: </b><a class="externalLink" href="https://github.com/ybonnel/OpenDataNantesApi">https://github.com/ybonnel/OpenDataNantesApi</a></p>
-<p><b>Project License: </b><a class="externalLink" href="http://www.gnu.org/licenses/lgpl-3.0.html">LGPL v3</a></p>
+<p><b>URL: </b><a href="https://github.com/ybonnel/OpenDataNantesApi" class="externalLink">https://github.com/ybonnel/OpenDataNantesApi</a></p>
+<p><b>Project License: </b><a href="http://www.gnu.org/licenses/lgpl-3.0.html" class="externalLink">LGPL v3</a></p>
 </td>
 </tr>
 </table>
-</div><ul><li>junit:junit:jar:4.8.2 (test) <img id="_1992936729" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_777073302', '_1992936729' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_777073302" style="display:none"><table class="bodyTable"><tr class="a"><th>JUnit</th>
+</div><ul><li>junit:junit:jar:4.8.2 (test) <img id="_998395611" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_874406311', '_998395611' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_874406311" style="display:none"><table class="bodyTable"><tr class="a"><th>JUnit</th>
 </tr>
 <tr class="b"><td><p><b>Description: </b>JUnit is a regression testing framework. It is used by the developer who implements unit tests in Java.</p>
-<p><b>URL: </b><a class="externalLink" href="http://junit.org">http://junit.org</a></p>
-<p><b>Project License: </b><a class="externalLink" href="http://www.opensource.org/licenses/cpl1.0.txt">Common Public License Version 1.0</a></p>
+<p><b>URL: </b><a href="http://junit.org" class="externalLink">http://junit.org</a></p>
+<p><b>Project License: </b><a href="http://www.opensource.org/licenses/cpl1.0.txt" class="externalLink">Common Public License Version 1.0</a></p>
+</td>
+</tr>
+</table>
+</div></li>
+<li>fr.ybo:moteurcsv:jar:1.0.3 (compile) <img id="_122403335" src="./images/icon_info_sml.gif" alt="Information" onclick="toggleDependencyDetail( '_2024318281', '_122403335' );" style="cursor: pointer;vertical-align:text-bottom;"></img><div id="_2024318281" style="display:none"><table class="bodyTable"><tr class="a"><th>MoteurCsv</th>
+</tr>
+<tr class="b"><td><p><b>Description: </b>Une librairie permettant de lire et écrire des csv à base d'annotations.</p>
+<p><b>URL: </b><a href="https://github.com/ybonnel/MoteurCsv" class="externalLink">https://github.com/ybonnel/MoteurCsv</a></p>
+<p><b>Project License: </b>No project license is defined for this project.</p>
 </td>
 </tr>
 </table>
@@ -241,6 +264,7 @@
 </div>
 </div>
 <div class="section"><h2>Licenses</h2>
+<p><b>Unknown: </b>MoteurCsv</p>
 <p><b>Common Public License Version 1.0: </b>JUnit</p>
 <p><b>LGPL v3: </b>open-data-nantes-api</p>
 </div>
@@ -253,7 +277,15 @@
 <th align="center">JDK Rev</th>
 <th align="center">Debug</th>
 </tr>
-<tr class="b"><td align="left">junit-4.8.2.jar</td>
+<tr class="b"><td align="left">moteurcsv-1.0.3.jar</td>
+<td align="right">18.56 kB</td>
+<td align="right">29</td>
+<td align="right">15</td>
+<td align="right">5</td>
+<td align="center">1.6</td>
+<td align="center">debug</td>
+</tr>
+<tr class="a"><td align="left">junit-4.8.2.jar</td>
 <td align="right">231.78 kB</td>
 <td align="right">267</td>
 <td align="right">230</td>
@@ -261,7 +293,7 @@
 <td align="center">1.5</td>
 <td align="center">debug</td>
 </tr>
-<tr class="a"><th align="left">Total</th>
+<tr class="b"><th align="left">Total</th>
 <th align="right">Size</th>
 <th align="right">Entries</th>
 <th align="right">Classes</th>
@@ -269,13 +301,21 @@
 <th align="center">JDK Rev</th>
 <th align="center">Debug</th>
 </tr>
-<tr class="b"><td align="right">1</td>
-<td align="right">231.78 kB</td>
-<td align="right">267</td>
-<td align="right">230</td>
-<td align="right">30</td>
-<td align="center">1.5</td>
-<td align="right">1</td>
+<tr class="a"><td align="right">2</td>
+<td align="right">250.34 kB</td>
+<td align="right">296</td>
+<td align="right">245</td>
+<td align="right">35</td>
+<td align="center">1.6</td>
+<td align="right">2</td>
+</tr>
+<tr class="b"><td align="right">compile: 1</td>
+<td align="right">compile: 18.56 kB</td>
+<td align="right">compile: 29</td>
+<td align="right">compile: 15</td>
+<td align="right">compile: 5</td>
+<td align="center">-</td>
+<td align="right">compile: 1</td>
 </tr>
 <tr class="a"><td align="right">test: 1</td>
 <td align="right">test: 231.78 kB</td>
@@ -295,27 +335,27 @@
 <th align="center">Snapshot</th>
 </tr>
 <tr class="a"><td align="left">cloudbees-private-release-repository</td>
-<td align="left"><a class="externalLink" href="https://repository-ybonnel.forge.cloudbees.com/release">https://repository-ybonnel.forge.cloudbees.com/release</a></td>
+<td align="left"><a href="https://repository-ybonnel.forge.cloudbees.com/release" class="externalLink">https://repository-ybonnel.forge.cloudbees.com/release</a></td>
 <td align="center">Yes</td>
 <td align="center">-</td>
 </tr>
 <tr class="b"><td align="left">ybonnel-release</td>
-<td align="left"><a class="externalLink" href="https://repository-ybonnel.forge.cloudbees.com/release/">https://repository-ybonnel.forge.cloudbees.com/release/</a></td>
+<td align="left"><a href="https://repository-ybonnel.forge.cloudbees.com/release/" class="externalLink">https://repository-ybonnel.forge.cloudbees.com/release/</a></td>
 <td align="center">Yes</td>
 <td align="center">Yes</td>
 </tr>
 <tr class="a"><td align="left">cloudbees-nexus-repository</td>
-<td align="left"><a class="externalLink" href="http://repo.cloudbees.com/content/groups/public">http://repo.cloudbees.com/content/groups/public</a></td>
+<td align="left"><a href="http://repo.cloudbees.com/content/groups/public" class="externalLink">http://repo.cloudbees.com/content/groups/public</a></td>
 <td align="center">Yes</td>
 <td align="center">Yes</td>
 </tr>
 <tr class="b"><td align="left">central</td>
-<td align="left"><a class="externalLink" href="http://repo1.maven.org/maven2">http://repo1.maven.org/maven2</a></td>
+<td align="left"><a href="http://repo1.maven.org/maven2" class="externalLink">http://repo1.maven.org/maven2</a></td>
 <td align="center">Yes</td>
 <td align="center">-</td>
 </tr>
 <tr class="a"><td align="left">cloudbees-private-snapshot-repository</td>
-<td align="left"><a class="externalLink" href="https://repository-ybonnel.forge.cloudbees.com/snapshot">https://repository-ybonnel.forge.cloudbees.com/snapshot</a></td>
+<td align="left"><a href="https://repository-ybonnel.forge.cloudbees.com/snapshot" class="externalLink">https://repository-ybonnel.forge.cloudbees.com/snapshot</a></td>
 <td align="center">-</td>
 <td align="center">Yes</td>
 </tr>
@@ -329,23 +369,30 @@
 <th align="center">central</th>
 <th align="center">cloudbees-private-snapshot-repository</th>
 </tr>
-<tr class="a"><td align="left">junit:junit:jar:4.8.2</td>
+<tr class="a"><td align="left">fr.ybo:moteurcsv:jar:1.0.3</td>
+<td align="center"><a href="https://repository-ybonnel.forge.cloudbees.com/release/fr/ybo/moteurcsv/1.0.3/moteurcsv-1.0.3.jar" class="externalLink"><img alt="Found at https://repository-ybonnel.forge.cloudbees.com/release" src="images/icon_success_sml.gif" /></a></td>
+<td align="center"><a href="https://repository-ybonnel.forge.cloudbees.com/release//fr/ybo/moteurcsv/1.0.3/moteurcsv-1.0.3.jar" class="externalLink"><img alt="Found at https://repository-ybonnel.forge.cloudbees.com/release/" src="images/icon_success_sml.gif" /></a></td>
 <td align="center">-</td>
 <td align="center">-</td>
-<td align="center"><a class="externalLink" href="http://repo.cloudbees.com/content/groups/public/junit/junit/4.8.2/junit-4.8.2.jar"><img alt="Found at http://repo.cloudbees.com/content/groups/public" src="images/icon_success_sml.gif" /></a></td>
-<td align="center"><a class="externalLink" href="http://repo1.maven.org/maven2/junit/junit/4.8.2/junit-4.8.2.jar"><img alt="Found at http://repo1.maven.org/maven2" src="images/icon_success_sml.gif" /></a></td>
 <td align="center">-</td>
 </tr>
-<tr class="b"><th align="left">Total</th>
+<tr class="b"><td align="left">junit:junit:jar:4.8.2</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center"><a href="http://repo.cloudbees.com/content/groups/public/junit/junit/4.8.2/junit-4.8.2.jar" class="externalLink"><img alt="Found at http://repo.cloudbees.com/content/groups/public" src="images/icon_success_sml.gif" /></a></td>
+<td align="center"><a href="http://repo1.maven.org/maven2/junit/junit/4.8.2/junit-4.8.2.jar" class="externalLink"><img alt="Found at http://repo1.maven.org/maven2" src="images/icon_success_sml.gif" /></a></td>
+<td align="center">-</td>
+</tr>
+<tr class="a"><th align="left">Total</th>
 <th align="center">cloudbees-private-release-repository</th>
 <th align="center">ybonnel-release</th>
 <th align="center">cloudbees-nexus-repository</th>
 <th align="center">central</th>
 <th align="center">cloudbees-private-snapshot-repository</th>
 </tr>
-<tr class="a"><td align="left">1 (test: 1)</td>
-<td align="center">0</td>
-<td align="center">0</td>
+<tr class="b"><td align="left">2 (compile: 1, test: 1)</td>
+<td align="center">1</td>
+<td align="center">1</td>
 <td align="center">1</td>
 <td align="center">1</td>
 <td align="center">0</td>

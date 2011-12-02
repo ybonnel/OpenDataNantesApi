@@ -8,9 +8,9 @@
     <language>en-us</language>
     <copyright>&#169;2011</copyright>
     <item>
-      <title>File: 17,
+      <title>File: 21,
              Errors: 0,
-             Warnings: 0,
+             Warnings: 2,
              Infos: 0
       </title>
             <link>https://github.com/ybonnel/OpenDataNantesApi/checkstyle.html</link>
@@ -141,6 +141,20 @@
               </tr>
                           <tr>
                 <td>
+                  <a href="https://github.com/ybonnel/OpenDataNantesApi/checkstyle.html#fr.ybo.opendata.nantes.util.MyAdapteurDouble.java">fr/ybo/opendata/nantes/util/MyAdapteurDouble.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="https://github.com/ybonnel/OpenDataNantesApi/checkstyle.html#fr.ybo.opendata.nantes.modele.InfoTrafic.java">fr/ybo/opendata/nantes/modele/InfoTrafic.java</a>
                 </td>
                 <td>
@@ -156,6 +170,20 @@
                           <tr>
                 <td>
                   <a href="https://github.com/ybonnel/OpenDataNantesApi/checkstyle.html#fr.ybo.opendata.nantes.modele.Answer.java">fr/ybo/opendata/nantes/modele/Answer.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/ybonnel/OpenDataNantesApi/checkstyle.html#fr.ybo.opendata.nantes.modele.MappingEquipement.java">fr/ybo/opendata/nantes/modele/MappingEquipement.java</a>
                 </td>
                 <td>
                   0
@@ -204,6 +232,34 @@
                 </td>
                 <td>
                   0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/ybonnel/OpenDataNantesApi/checkstyle.html#fr.ybo.opendata.nantes.util.EquipementManager.java">fr/ybo/opendata/nantes/util/EquipementManager.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/ybonnel/OpenDataNantesApi/checkstyle.html#fr.ybo.opendata.nantes.modele.Equipement.java">fr/ybo/opendata/nantes/modele/Equipement.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
                 </td>
                 <td>
                   0

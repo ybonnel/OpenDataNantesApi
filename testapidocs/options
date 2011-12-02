@@ -1,5 +1,5 @@
 -classpath
-'/scratch/hudson/workspace/OpenDataNantesApi-release/target/classes:/scratch/hudson/workspace/OpenDataNantesApi-release/target/test-classes:/scratch/hudson/workspace/OpenDataNantesApi-release/.repository/junit/junit/4.8.2/junit-4.8.2.jar'
+'/scratch/hudson/workspace/OpenDataNantesApi-release/target/classes:/scratch/hudson/workspace/OpenDataNantesApi-release/target/test-classes:/scratch/hudson/workspace/OpenDataNantesApi-release/.repository/fr/ybo/moteurcsv/1.0.3/moteurcsv-1.0.3.jar:/scratch/hudson/workspace/OpenDataNantesApi-release/.repository/junit/junit/4.8.2/junit-4.8.2.jar'
 -encoding
 'UTF-8'
 -public
@@ -15,12 +15,14 @@
 -docencoding
 'UTF-8'
 -doctitle
-'open-data-nantes-api 1.0 Test API'
+'open-data-nantes-api 1.1 Test API'
 -link
 'http://java.sun.com/j2se/1.6.0/docs/api'
+-link
+'../apidocs'
 -linkoffline
 'http://download.oracle.com/javase/6/docs/api' '/scratch/hudson/workspace/OpenDataNantesApi-release/target/javadoc-bundle-options'
 -use
 -version
 -windowtitle
-'open-data-nantes-api 1.0 Test API'
+'open-data-nantes-api 1.1 Test API'
