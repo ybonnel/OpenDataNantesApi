@@ -63,27 +63,30 @@ public class OpenDataApiTest {
         openDataApi.setConnecteur(new FileConnecteur("/getDisponibiliteParkingsPublics.xml"));
 
         List<Parking> parkings = openDataApi.getParkings();
-        assertEquals(2, parkings.size());
-        Parking parking1 = parkings.get(0);
-        assertEquals("1", parking1.getIdentifiant());
-        assertEquals("NEPTUNE", parking1.getNom());
-        assertEquals(StatutParking.INVALIDE, parking1.getStatut());
-        assertEquals(0, parking1.getPriorite());
-        assertEquals(0, parking1.getDisponibles());
-        assertEquals(0, parking1.getSeuilComplet());
-        assertEquals(0, parking1.getPlacesTotales());
-        assertEquals(formatDate.parse("21/11/2011 20:18:40"), parking1.getLastUpdate());
+        assertEquals(1, parkings.size());
 
-        Parking parking2 = parkings.get(1);
-        assertEquals("2", parking2.getIdentifiant());
-        assertEquals("DECRE-BOUFFAY", parking2.getNom());
-        assertEquals(StatutParking.OUVERT, parking2.getStatut());
-        assertEquals(0, parking2.getPriorite());
-        assertEquals(DISPONIBLES, parking2.getDisponibles());
-        assertEquals(2, parking2.getSeuilComplet());
-        assertEquals(PLACES, parking2.getPlacesTotales());
+        Parking parking1 = parkings.get(0);
+        assertEquals("2", parking1.getIdentifiant());
+        assertEquals("DECRE-BOUFFAY", parking1.getNom());
+        assertEquals(StatutParking.OUVERT, parking1.getStatut());
+        assertEquals(0, parking1.getPriorite());
+        assertEquals(DISPONIBLES, parking1.getDisponibles());
+        assertEquals(2, parking1.getSeuilComplet());
+        assertEquals(PLACES, parking1.getPlacesTotales());
         assertEquals(formatDate.parse("21/11/2011 20:18:40"), parking1.getLastUpdate());
+        assertEquals(EXPECTED_LATITUDE, parking1.getLatitude());
+        assertEquals(EXPECTED_LONGITUDE, parking1.getLongitude());
     }
+
+    /**
+     * Latitude du parking.
+     */
+    private static final double EXPECTED_LATITUDE = 47.216662619964;
+
+    /**
+     * Longitude du parking.
+     */
+    private static final double EXPECTED_LONGITUDE = -1.554004632271;
 
     /**
      * Places disponibles.
@@ -185,11 +188,27 @@ public class OpenDataApiTest {
      * Test en passant vraiment pas la couche http.
      * @throws ApiReseauException problème réseaux.
      */
+    @Test
     public void testHttp() throws ApiReseauException {
         openDataApi = new OpenDataApi("QB1ANX3ARXFI3AS");
         List<InfoTrafic> infosTrafics = openDataApi.getInfosTrafics();
         assertNotNull(infosTrafics);
         assertFalse(infosTrafics.isEmpty());
+
+        List<Parking> parkings = openDataApi.getParkings();
+        assertNotNull(infosTrafics);
+        assertFalse(infosTrafics.isEmpty());
+        boolean erreur = false;
+        StringBuilder message = new StringBuilder();
+        for (Parking parking : parkings) {
+            if (parking.getLatitude() == null) {
+                erreur = true;
+                message.append("Le parking ");
+                message.append(parking.getIdentifiant());
+                message.append(" n'a pas de latitude");
+            }
+        }
+        assertFalse(message.toString(), erreur);
     }
 
 }

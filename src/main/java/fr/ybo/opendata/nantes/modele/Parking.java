@@ -55,6 +55,16 @@ public class Parking {
     private Date lastUpdate;
 
     /**
+     * Latitude.
+     */
+    private Double latitude;
+
+    /**
+     * Longitude.
+     */
+    private Double longitude;
+
+    /**
      * @return {@link Parking#identifiant}.
      */
     public String getIdentifiant() {
@@ -181,5 +191,33 @@ public class Parking {
         } catch (ParseException exception) {
             LOGGER.warning(exception.getMessage());
         }
+    }
+
+    /**
+     * @return {@link Parking#latitude}.
+     */
+    public Double getLatitude() {
+        return latitude;
+    }
+
+    /**
+     * @param latitude {@link Parking#latitude}.
+     */
+    public void setLatitude(Double latitude) {
+        this.latitude = latitude;
+    }
+
+    /**
+     * @return {@link Parking#longitude}.
+     */
+    public Double getLongitude() {
+        return longitude;
+    }
+
+    /**
+     * @param longitude {@link Parking#longitude}.
+     */
+    public void setLongitude(Double longitude) {
+        this.longitude = longitude;
     }
 }

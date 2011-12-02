@@ -176,6 +176,11 @@
             <version>4.8.2</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>fr.ybo</groupId>
+            <artifactId>moteurcsv</artifactId>
+            <version>1.0.3</version>
+        </dependency>
     </dependencies>
 
     <developers>

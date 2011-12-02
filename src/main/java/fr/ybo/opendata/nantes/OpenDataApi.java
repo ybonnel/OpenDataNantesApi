@@ -19,9 +19,11 @@ import fr.ybo.opendata.nantes.modele.Answer;
 import fr.ybo.opendata.nantes.modele.InfoTrafic;
 import fr.ybo.opendata.nantes.modele.Itineraire;
 import fr.ybo.opendata.nantes.modele.Parking;
+import fr.ybo.opendata.nantes.modele.StatutParking;
 import fr.ybo.opendata.nantes.sax.ApiHandler;
 import fr.ybo.opendata.nantes.sax.GenericHandler;
 import fr.ybo.opendata.nantes.util.Connecteur;
+import fr.ybo.opendata.nantes.util.EquipementManager;
 import fr.ybo.opendata.nantes.util.HttpConnecteur;
 import org.xml.sax.SAXException;
 
@@ -30,6 +32,8 @@ import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 import java.util.logging.Logger;
 
@@ -95,7 +99,16 @@ public class OpenDataApi {
      * @throws ApiReseauException problème réseaux.
      */
     public List<Parking> getParkings() throws ApiReseauException {
-        return appelApi(getUrl(CMD_PARKINGS), new GenericHandler<Parking>(Parking.class));
+        List<Parking> parkings = appelApi(getUrl(CMD_PARKINGS), new GenericHandler<Parking>(Parking.class));
+        // On enleve les parkings "invalides".
+        Iterator<Parking> iterator = parkings.iterator();
+        while (iterator.hasNext()) {
+            if (iterator.next().getStatut() == StatutParking.INVALIDE) {
+                iterator.remove();
+            }
+        }
+        EquipementManager.getInstance().completeParkings(parkings);
+        return parkings;
     }
 
     /**
