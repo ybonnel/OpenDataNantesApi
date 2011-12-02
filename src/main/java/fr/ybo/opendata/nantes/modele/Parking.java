@@ -4,6 +4,7 @@ import fr.ybo.opendata.nantes.sax.BaliseData;
 import fr.ybo.opendata.nantes.sax.BaliseType;
 import fr.ybo.opendata.nantes.sax.BaliseXml;
 
+import java.io.Serializable;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -13,11 +14,15 @@ import java.util.logging.Logger;
  * Classe Parking.
  */
 @BaliseData("Groupe_Parking")
-public class Parking {
+public class Parking implements Serializable {
     /**
      * Logger.
      */
     private static final Logger LOGGER = Logger.getLogger(Parking.class.getSimpleName());
+    /**
+     * Serial.
+     */
+    private static final long serialVersionUID = -2671435726234350378L;
     /**
      * Identifiant du parking.
      */
