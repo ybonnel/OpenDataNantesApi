@@ -8,9 +8,9 @@
     <language>en-us</language>
     <copyright>&#169;2011</copyright>
     <item>
-      <title>File: 21,
+      <title>File: 20,
              Errors: 0,
-             Warnings: 2,
+             Warnings: 4,
              Infos: 0
       </title>
             <link>https://github.com/ybonnel/OpenDataNantesApi/checkstyle.html</link>
@@ -183,20 +183,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/ybonnel/OpenDataNantesApi/checkstyle.html#fr.ybo.opendata.nantes.modele.MappingEquipement.java">fr/ybo/opendata/nantes/modele/MappingEquipement.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="https://github.com/ybonnel/OpenDataNantesApi/checkstyle.html#fr.ybo.opendata.nantes.package-info.java">fr/ybo/opendata/nantes/package-info.java</a>
                 </td>
                 <td>
@@ -245,7 +231,7 @@
                   0
                 </td>
                 <td>
-                  0
+                  2
                 </td>
                 <td>
                   0
