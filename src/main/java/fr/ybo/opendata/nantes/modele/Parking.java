@@ -60,6 +60,11 @@ public class Parking implements Serializable {
     private Date lastUpdate;
 
     /**
+     * Identifiant de l'objet.
+     */
+    private String idObj;
+
+    /**
      * Latitude.
      */
     private Double latitude;
@@ -196,6 +201,21 @@ public class Parking implements Serializable {
         } catch (ParseException exception) {
             LOGGER.warning(exception.getMessage());
         }
+    }
+
+    /**
+     * @return {@link Parking#idObj}.
+     */
+    public String getIdObj() {
+        return idObj;
+    }
+
+    /**
+     * @param idObj {@link Parking#idObj}.
+     */
+    @BaliseXml(name = "IdObj")
+    public void setIdObj(String idObj) {
+        this.idObj = idObj;
     }
 
     /**
