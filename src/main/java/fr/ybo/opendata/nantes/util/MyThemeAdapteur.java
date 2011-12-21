@@ -19,6 +19,10 @@ package fr.ybo.opendata.nantes.util;
 import fr.ybo.moteurcsv.adapter.AdapterCsv;
 import fr.ybo.opendata.nantes.modele.Theme;
 
+import java.text.NumberFormat;
+import java.text.ParseException;
+import java.util.Locale;
+
 /**
  * Chargement du Theme à partir de l'identifiant numérique dans
  * le fichier CSV.
@@ -32,7 +36,12 @@ public class MyThemeAdapteur implements AdapterCsv<Theme> {
      */
     @Override
     public Theme parse(String chaine) {
-        int value = Integer.valueOf(chaine);
+        NumberFormat nf = NumberFormat.getIntegerInstance(Locale.FRENCH);
+        int value = -1;
+        try {
+            value = nf.parse(chaine).intValue();
+        } catch (ParseException e) {
+        }
         return Theme.fromId(value);
     }
 

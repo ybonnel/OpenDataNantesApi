@@ -1,192 +1,192 @@
 _IDOBJ;NOM_COMPLET;THEME;LIBTHEME;CATEGORIE;LIBCATEGORIE;TYPE;LIBTYPE;STATUT;COMMUNE;ADRESSE;TELEPHONE;WEB;CODE_POSTAL;LONG_WGS84;LAT_WGS84
-663;Gare Routiï¿½re;10;DEPLACEMENT;1004;Transport en commun;100404;Route;;NANTES;Allï¿½e de la Maison Rouge;02 40 77 62 70;;44000;-1,552760771850;47,212740250147
-288;Parking ouvrage Graslin;10;DEPLACEMENT;1001;Parking;;;;NANTES;Rue Scribe;02 40 73 08 15;www.nge-nantes.fr;44000;-1,562571816217;47,214310210506
-281;Gare de Nantes Nord - Direction rï¿½gionale;10;DEPLACEMENT;1004;Transport en commun;100403;Rail;;NANTES;Boulevard de Stalingrad;08 36 35 35 35;www.sncf.fr;44000;-1,542359966056;47,217443160658
-280;Parking ouvrage Gare Nord;10;DEPLACEMENT;1001;Parking;;;;NANTES;Boulevard de Stalingrad;02 40 74 23 05;www.nge-nantes.fr;44000;-1,544984334115;47,216689040172
-261;Gare SNCF de Chantenay;10;DEPLACEMENT;1004;Transport en commun;100403;Rail;;NANTES;Rue de la Gare de Chantenay;08 92 35 35 35;www.sncf.com;44100;-1,594354993169;47,197202245403
-245;Gare SNCF de Doulon;10;DEPLACEMENT;1004;Transport en commun;100403;Rail;;NANTES;Rue des Perrines;02 40 08 15 40;www.sncf.fr;44300;-1,517244027262;47,228528504866
-3655;Parking relais Maraï¿½chers;10;DEPLACEMENT;1002;Parking relais;;;;VERTOU;Rue de la Grand' Maison;;;44120;-1,510859655582;47,185302793647
-3630;Parking relais busway Chapeau Verni;10;DEPLACEMENT;1002;Parking relais;;;;VERTOU;Route de Clisson;;;44230;-1,511298891814;47,189530076279
-3629;Parking relais busway Bourdonniï¿½res;10;DEPLACEMENT;1002;Parking relais;;;;NANTES;Boulevard de Vendï¿½e;;;44200;-1,521154294565;47,186255590967
-3628;Parking relais busway Grï¿½neraie;10;DEPLACEMENT;1002;Parking relais;;;;NANTES;Boulevard Emile Gabory;;;44200;-1,533333623247;47,200139039269
-677;Parking ouvrage Commerce;10;DEPLACEMENT;1001;Parking;;;;NANTES;Place du Commerce;02 40 48 19 66;www.nge-nantes.fr;44000;-1,557713219690;47,213120285802
-3627;Parking relais busway Porte de Vertou;10;DEPLACEMENT;1002;Parking relais;;;;VERTOU;Boulevard Auguste Priou;;;44120;-1,505160177649;47,180175295986
-134;Parking ouvrage Mï¿½diathï¿½que;10;DEPLACEMENT;1001;Parking;;;;NANTES;Rue Neuve des Capucins;02 40 69 07 79;www.nge-nantes.fr;44000;-1,562338175962;47,210870827100
-2520;Gare de Vertou;10;DEPLACEMENT;1004;Transport en commun;100403;Rail;;VERTOU;Impasse de la Gare;08 92 35 35 35;www.sncf.com;44120;-1,478031948559;47,186143479464
-2519;Gare de Mauves;10;DEPLACEMENT;1004;Transport en commun;100403;Rail;;MAUVES-SUR-LOIRE;Place de la Gare;08 92 35 35 35;www.sncf.com;44470;-1,389303478987;47,293008169788
-2518;Gare de Thouarï¿½ s/ Loire;10;DEPLACEMENT;1004;Transport en commun;100403;Rail;;THOUARE-SUR-LOIRE;Place de la Rï¿½publique;08 92 35 35 35;www.sncf.com;44470;-1,440963860714;47,265120118465
-2517;Gare Rezï¿½ Pont Rousseau;10;DEPLACEMENT;1004;Transport en commun;100403;Rail;;REZE;Rue de la Gare;08 92 35 35 35;www.sncf.com;44400;-1,549392105427;47,193331595479
-2497;Bacs de la Loire;10;DEPLACEMENT;1004;Transport en commun;100402;Fluvial;;COUERON;RD 91;;;44220;-1,752254729147;47,205927467615
-2452;Gare de Couï¿½ron;10;DEPLACEMENT;1004;Transport en commun;100403;Rail;;COUERON;Rue de la Gare;08 92 35 35 35;www.sncf.com;44220;-1,723599399918;47,221944187514
-2375;Gare de Bouaye;10;DEPLACEMENT;1004;Transport en commun;100403;Rail;;BOUAYE;Allï¿½e Louis Armand;08 36 35 35 35;www.sncf.com;44830;-1,681075269834;47,138144687395
-2374;Bacs de Loire;10;DEPLACEMENT;1004;Transport en commun;100402;Fluvial;;INDRE;Quai Besnard;02 40 86 01 29;;44610;-1,673918470528;47,197769257259
-2533;Port de Couï¿½ron;10;DEPLACEMENT;1004;Transport en commun;100402;Fluvial;;COUERON;Boulevard Gambetta;02 51 84 94 51;www.nge-nantes.fr/;44220;-1,729959223793;47,209125688498
-2532;Port de Trentemoult;10;DEPLACEMENT;1004;Transport en commun;100402;Fluvial;;REZE;Allï¿½e Claude Choï¿½met;02 51 84 94 51;http;44400;-1,578906164935;47,195374526174
-2109;Aï¿½roport Nantes Atlantique Chï¿½teau Bougon;10;DEPLACEMENT;1004;Transport en commun;100401;Aï¿½rien;Public;BOUGUENAIS;Rue Clï¿½ment Ader;02 40 84 80 00;www.nantes.aeroport.fr;44340;-1,601782069837;47,157519148192
-1805;Gare de Basse Indre St-Herblain;10;DEPLACEMENT;1004;Transport en commun;100403;Rail;Public;ST-HERBLAIN;Rue de la Gare;08 92 35 35 35;www.sncf.fr;44800;-1,660312841280;47,204083239044
-3800;Parking de la Fourche;10;DEPLACEMENT;1001;Parking;;;;LES-SORINIERES;Rue de Nantes;;;44840;-1,533525919193;47,151083714948
-3700;Station Accueil Place Edouard Normand;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Place Edouard Normand;;www.bicloo.nantesmetropole.fr;44000;-1,563494733376;47,219028032543
-3699;Station Accueil Place Aristide Briand;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Place Aristide Briand;;www.bicloo.nantesmetropole.fr;44000;-1,563005503482;47,217196287643
-3695;Station Accueil Calvaire;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Place des Volontaires de la Dï¿½fense Passive;;www.bicloo.nantesmetropole.fr;44000;-1,560606306876;47,215599181963
-3692;Station Abonnement Boucherie;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Rue de la Boucherie;;www.bicloo.nantesmetropole.fr;44000;-1,557090686786;47,216208142635
-3687;Station Accueil Strasbourg;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Place Tirant Lo Blanc;;www.bicloo.nantesmetropole.fr;44000;-1,551617564984;47,216532854728
-1581;Capitainerie du Port Atlantique Nantes Saint Nazaire;10;DEPLACEMENT;1004;Transport en commun;100402;Fluvial;;NANTES;Quai Ernest Renaud;02 40 44 20 53;www.nantes.port.fr;44100;-1,573981391341;47,205400782347
-1341;Parking relais tram Recteur Schmitt;10;DEPLACEMENT;1002;Parking relais;;;;NANTES;Rue Recteur Schmitt;;www.tan.fr;44300;-1,552903104379;47,251735253868
-1658;Service Maritime et Navigation Ecluse Saint Fï¿½lix;10;DEPLACEMENT;1004;Transport en commun;100402;Fluvial;;NANTES;Quai Ferdinand Favre;02 40 71 02 19;www.equipement.gouv.fr/france.ocean;44000;-1,540898999522;47,212528607285
-1624;Port de l'Erdre;10;DEPLACEMENT;1004;Transport en commun;100402;Fluvial;;NANTES;Quai de Versailles;02 40 37 04 62;www.nge-nantes.fr;44000;-1,553724598010;47,225203577314
-3776;Parking relais tram Marcel Paul;10;DEPLACEMENT;1002;Parking relais;;;;ST-HERBLAIN;Boulevard Marcel Paul;;;44800;-1,618008349639;47,245904569813
-3712;Station Accueil Place Edit de Nantes;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Place de l'Edit de Nantes;;www.bicloo.nantesmetropole.fr;44100;-1,567610750129;47,214459027951
-3708;Station Accueil Versailles;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Quai de Versailles;;www.bicloo.nantesmetropole.fr;44000;-1,553728032107;47,224423383876
-3705;Station Accueil Marchï¿½ Talensac Sud;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Rue de Talensac;;www.bicloo.nantesmetropole.fr;44000;-1,556494771798;47,221154818394
-1046;Parking ouvrage Talensac;10;DEPLACEMENT;1001;Parking;;;;NANTES;Rue Le Nï¿½tre;02 40 89 26 50;www.nge-nantes.fr;44000;-1,558357299902;47,220255981046
-1044;Parking ouvrage Citï¿½ des Congrï¿½s;10;DEPLACEMENT;1001;Parking;;;;NANTES;Avenue Jean Claude Bonduelle;02 40 48 78 64;www.nge-nantes.fr;44000;-1,543971277166;47,212901670902
-1043;Parking ouvrage Aristide Briand;10;DEPLACEMENT;1001;Parking;;;;NANTES;Place Aristide Briand;02 40 47 06 05;;44000;-1,562936418080;47,217093604857
-3742;Station Abonnement Gaï¿½tan Rondeau;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;20 Rue Gaï¿½tan Rondeau;;www.bicloo.nantesmetropole.fr;44200;-1,537600139625;47,205407211862
-3740;Station Accueil Magellan;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;11 Rue de Belfort;;www.bicloo.nantesmetropole.fr;44000;-1,544248263392;47,210683975483
-1045;Parking ouvrage Gare Sud;10;DEPLACEMENT;1001;Parking;;;;NANTES;32 Rue de Cornulier;02 40 08 15 28;;44000;-1,541036828463;47,216149635954
-3714;Station accueil Duguay Trouin;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;7 Allï¿½e Duguay Trouin;;www.bicloo.nantesmetropole.fr;44000;-1,555288508406;47,213461578790
-3721;Station Accueil Alger;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;5 Rue d'Alger;;www.bicloo.nantesmetropole.fr;44100;-1,566674313665;47,210705238574
-3685;Station Abonnement Prï¿½fecture;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;5 Quai Ceineray;;www.bicloo.nantesmetropole.fr;44000;-1,554176048615;47,220195066995
-3747;Station Abonnement Gare Nord;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;1 Place Charles le Roux;;www.bicloo.nantesmetropole.fr;44000;-1,542240968402;47,218141404614
-3709;Station Accueil Descartes;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;2 Rue Descartes;;www.bicloo.nantesmetropole.fr;44000;-1,565564088162;47,216279719599
-3754;Station Accueil Livet;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;65 Rue Dufour;;www.bicloo.nanresmetropole.fr;44000;-1,545216320958;47,224095495505
-3758;Station Accueil Fï¿½libien;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;19 Rue Fï¿½libien;;www.bicloo.nantesmetropole.fr;44000;-1,566849350985;47,220766478732
-3757;Station Abonnement Marchï¿½ Talensac Nord;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;17 Rue de Bel Air;;www.bicloo.nantesmetropole.fr;44000;-1,559069342877;47,221910341954
-3745;Station Abonnement Gare Sud;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;12 Rue de Lourmel;;www.bicloo.nanresmetropole.fr;44000;-1,542865960917;47,215930742147
-1042;Gare de Nantes Sud;10;DEPLACEMENT;1004;Transport en commun;100403;Rail;;NANTES;2 Rue de Lourmel;;www.sncf.fr;44000;-1,541558460265;47,216448854427
-3750;Station Abonnement Saint Clï¿½ment;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;37 Rue Marï¿½chal Joffre;;www.bicloo.nantesmetropole.fr;44000;-1,546931671984;47,221973737285
-1041;Gare Routiï¿½re Cariane Atlantique;10;DEPLACEMENT;1004;Transport en commun;100404;Route;;NANTES;5 Allï¿½e Duquesne;02 40 20 46 99;;44000;-1,556650996308;47,217320024972
-3690;Station Abonnement Place du Cirque;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;7 Allï¿½e Duquesne;;www.bicloo.nantesmetropole.fr;44000;-1,556869629336;47,217652287732
-3689;Station Accueil Brossard;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;12 Allï¿½e Duquesne;;www.bicloo.nantesmetropole.fr;44000;-1,556327090290;47,218822583124
-3704;Station Abonnement Bellamy;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;29 Rue Paul Bellamy;;www.bicloo.nantesmetropole.fr;44000;-1,557659854435;47,223348795628
-3952;Station Accueil Bel Air;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;102 Rue Paul Bellamy;;www.bicloo.nantesmetropole.fr;44000;-1,560041221375;47,226406033943
-3731;Station Accueil Place Rï¿½publique;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;3 Place de la Rï¿½publique;;www.bicloo.nantesmetropole.fr;44200;-1,555193861635;47,205401226591
-4004;Station Accueil Saint-Donatien;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;69 Rue Gï¿½nï¿½ral Buat;;www.bicloo.nantesmetropole.fr;44000;-1,540402417437;47,229128762669
-3707;Station Accueil Buat;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;101 Rue Gï¿½nï¿½ral Buat;;www.bicloo.nantesmetropole.fr;44000;-1,542422643412;47,227156972600
-3998;Station Accueil Saint-Jacques;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;85 Rue Saint Jacques;;www.bicloo.nantesmetropole.fr;44200;-1,536589628879;47,195859160598
-3718;Station Accueil Racine;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;5 Rue Racine;;www.bicloo.nantesmetropole.fr;44000;-1,563187705896;47,213483260326
-3834;Station Accueil Saint-Aignan;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;65 Boulevard Saint Aignan;;www.bicloo.nantesmetropole.fr;44100;-1,578715096614;47,207444063946
-3733;Station Abonnement Verdun;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;17 Rue de Verdun;;www.bicloo.nantesmetropole.fr;44000;-1,551868176513;47,217516769716
-3691;Station Accueil Barillerie;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;2 Allï¿½e Penthiï¿½vre;;www.bicloo.nantesmetropole.fr;44000;-1,556100379995;47,215409629938
-3836;Station Abonnement Mangin;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;8 Place Victor Mangin;;www.bicloo.nantesmetropole.fr;44200;-1,545497627403;47,201021927200
-282;Gare Fluviale Bateaux Nantais;10;DEPLACEMENT;1004;Transport en commun;100402;Fluvial;;NANTES;15 Place Waldeck Rousseau;02 40 14 51 14;www.bateaux-nantais.fr;44000;-1,551636739169;47,227968476642
-3833;Station Accueil Mellinet;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;1 Boulevard Allard;;www.bicloo.nantesmetropole.fr;44100;-1,577126765418;47,211489622114
-299;Parking ouvrage Tour Bretagne;10;DEPLACEMENT;1001;Parking;;;;NANTES;4 Place de Bretagne;02 40 47 92 14;www.nge-nantes.fr;44000;-1,558201639362;47,217739419820
-3693;Station Accueil Guï¿½pin;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;2 Rue du Calvaire;;www.bicloo.nantesmetropole.fr;44000;-1,559155737871;47,215829434071
-3760;Station Accueil Place Canclaux;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;8 Place Canclaux;;www.bicloo.nantesmetropole.fr;44100;-1,575006081926;47,214371684292
-3735;Station Abonnement Chï¿½teau;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;2 Rue des Etats;;www.bicloo.nantesmetropole.fr;44000;-1,550276002344;47,215135932323
-3706;Station Accueil Moquechien;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;8 Rue Moquechien;;www.bicloo.nantesmetropole.fr;44000;-1,555582979271;47,220379047481
-3759;Station Accueil Sarradin;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;4 Place Emile Sarradin;;www.bicloo.nantesmetropole.fr;44000;-1,570507177852;47,220883766721
-1583;Port Autonome de Nantes Saint Nazaire;10;DEPLACEMENT;1004;Transport en commun;100402;Fluvial;;NANTES;18 Quai Ernest Renaud;02 40 44 20 20;www.nantes.port.fr;44100;-1,574711354727;47,205511114895
-3719;Station Abonnement Mï¿½diathï¿½que;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;24 Quai de la Fosse;;www.bicloo.nantesmetropole.fr;44000;-1,561841844952;47,210912654925
-3741;Station Accueil Vincent Gache;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;9 Rue Franï¿½ois Albert;;www.bicloo.nantesmetropole.fr;44200;-1,541850967268;47,206884735167
-3732;Station Abonnement Martyrs Nantais;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;21 Boulevard Gaston Doumergue;;www.bicloo.nantesmetropole.fr;44200;-1,548179850547;47,207035364629
-3696;Station Abonnement Place Delorme;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;2 Boulevard Gabriel Guist'Hau;;www.bicloo.nantesmetropole.fr;44000;-1,563963566828;47,215158134429
-3710;Station Accueil Guist'hau Nord;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;44 Boulevard Gabriel Guist'Hau;;www.bicloo.nantesmetropole.fr;44000;-1,569267206185;47,217940185225
-3711;Station Abonnement Guist'hau Sud;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;26T Boulevard Gabriel Guist'Hau;;www.bicloo.nantesmetropole.fr;44000;-1,567023357312;47,216839445305
-3701;Station Accueil Sainte Elisabeth;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;3 Place Sainte Elisabeth;;www.bicloo.nantesmetropole.fr;44000;-1,561588768418;47,219225442242
-3755;Station Accueil Manufacture;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;11 Boulevard de Stalingrad;;www.bicloo.nantesmetropole.fr;44000;-1,535865350197;47,219227699299
-3686;Station Accueil Hï¿½tel de Ville;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;29 Rue de Strasbourg;;www.bicloo.nantesmetropole.fr;44000;-1,553544268536;47,218564001564
-3586;Parking relais tram Beausï¿½jour;10;DEPLACEMENT;1002;Parking relais;;;;NANTES;142 Route de Vannes;;;44100;-1,587343748836;47,238413521397
-3698;Station Accueil Bretagne Nord;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;1 Rue Lï¿½opold Cassegrain;;www.bicloo.nantesmetropole.fr;44000;-1,558667159705;47,218444866727
-4001;Station Abonnement Michelet;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;38 Boulevard Michelet;;www.bicloo.nantesmetropole.fr;44300;-1,556388702048;47,235083706675
-3738;Station Accueil Olivettes;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;10 Rue des Olivettes;;www.bicloo.nantesmetropole.fr;44000;-1,549959351078;47,211749426576
-3688;Station Accueil Moulin;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;18 Rue du Moulin;;www.bicloo.nantesmetropole.fr;44000;-1,554425847107;47,216646871200
-284;Parking ouvrage Decrï¿½-Bouffay;10;DEPLACEMENT;1001;Parking;;;;NANTES;18 Rue du Moulin;02 40 47 69 30;;44000;-1,554004632271;47,216662619964
-3751;Station Accueil Sully;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;7 Cours Sully;;www.bicloo.nantesmetropole.fr;44000;-1,551684707307;47,222598822914
-3762;Station Accueil Place Renï¿½ Bouhier;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;8 Place Renï¿½ Bouhier;;www.bicloo.nantesmetropole.fr;44100;-1,570589286667;47,209442040964
-3697;Station Abonnement Bretagne Sud;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;1 Rue Pierre Chï¿½reau;;www.bicloo.nantesmetropole.fr;44000;-1,559157317875;47,216750059447
-3743;Station Accueil Palais des Sports;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;21 Rue Renï¿½ Viviani;;www.bicloo.nantesmetropole.fr;44200;-1,535999160686;47,208477196156
-3703;Station Accueil Saint Similien;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;1 Place Saint Similien;;www.bicloo.nantesmetropole.fr;44000;-1,558928909642;47,219835952652
-3748;Station Accueil Jardins des Plantes;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;6 Rue Stanislas Baudry;;www.bicloo.nantesmetropole.fr;44000;-1,544764109624;47,219931771933
-3702;Station Abonnement Place Viarme;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;23 Place Viarme;;www.bicloo.nantesmetropole.fr;44000;-1,563326981143;47,221440878007
-3729;Station Accueil Palais de Justice;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;19 Quai Franï¿½ois Mitterrand;;www.bicloo.nantesmetropole.fr;44200;-1,561242453731;47,208363178205
-3951;Parking ouvrage Les Machines;10;DEPLACEMENT;1001;Parking;;;;NANTES;Rue Arthur III;;;44200;-1,562727792363;47,205900622064
-3950;Parking Enclos Courte Durï¿½e Gare Nord;10;DEPLACEMENT;1001;Parking;;;;NANTES;Boulevard de Stalingrad;;;44000;-1,543478750844;47,217264732216
-3974;Station Accueil Berlin;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Boulevard de Berlin;;http://www.bicloo.nantesmetropole.fr;44000;-1,529927520203;47,213866740082
-4005;Station Abonnement Huit Mai;10;DEPLACEMENT;1003;Station Bicloo;;;;REZE;Place du 8 Mai 1945;;www.bicloo.nantesmetropole.fr;44400;-1,551821259531;47,189998620130
-4003;Station Abonnement Facultï¿½s;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Boulevard Guy Mollet;;www.bicloo.nantesmetropole.fr;44300;-1,555338349805;47,246323288345
-4002;Station Abonnement Petit Port;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Place du Huit Mai 1945;;www.bicloo.nantesmetropole.fr;44300;-1,556380986355;47,243262644076
-4000;Station Abonnement Tortiï¿½re;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Boulevard Eugï¿½ne Orieux;;www.bicloo.nantesmetropole.fr;44000;-1,549473437411;47,235344800187
-3999;Station Abonnement Grï¿½neraie;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Cï¿½te Saint Sï¿½bastien;;www.bicloo.nantesmetropole.fr;44200;-1,534607153787;47,199970710192
-3997;Station Abonnement Pirmil;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Rue Esnoult des Chï¿½telets;;www.bicloo.nantesmetropole.fr;44200;-1,541450633643;47,196629488228
-3996;Station Abonnement Gare Pont Rousseau;10;DEPLACEMENT;1003;Station Bicloo;;;;REZE;Rue de la Gare;;www.bicloo.nantesmetropole.fr;44400;-1,549005454463;47,193149276695
-3995;Station Abonnement Procï¿½;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Boulevard Gaston Serpette;;www.bicloo.nantesmetropole.fr;44000;-1,576583566602;47,224321586199
-3993;Station Abonnement Rond Point Rennes;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Rond-Point de Rennes;;www.bicloo.nantesmetropole.fr;44000;-1,566016980776;47,233091703755
-3990;Parking Viviani;10;DEPLACEMENT;1001;Parking;;;;NANTES;Rue Renï¿½ Viviani;;;44200;-1,536197069789;47,208775604289
-3989;Parking Gare Sud 4;10;DEPLACEMENT;1001;Parking;;;;NANTES;Mail Pablo Picasso;;;44000;-1,537545042601;47,215209926075
-3973;Station Accueil Picasso;10;DEPLACEMENT;1003;Station Bicloo;;;;;;;http://www.bicloo.nantesmetropole.fr/;44000;-1,534229121012;47,216343586847
-3764;Station Accueil De Gaulle;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Boulevard Gï¿½nï¿½ral de Gaulle;;www.bicloo.nantesmetropole.fr;44200;-1,540568733291;47,208460378395
-3763;Station Accueil Ecole d'Architecture;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Quai Franï¿½ois Mitterrand;;www.bicloo.nantesmetropole.fr;44200;-1,557551259669;47,207616902001
-3761;Station Accueil Lamoriciï¿½re;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Rue Lamoriciï¿½re;;www.bicloo.nantesmetropole.fr;44100;-1,571398998401;47,212365614395
-3756;Station Abonnement Foch Cathï¿½drale;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Rue de l'Evï¿½chï¿½;;www.bicloo.nantesmetropole.fr;44000;-1,550480136778;47,218694565936
-3753;Station Accueil Place Waldeck Rousseau;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Place Waldeck Rousseau;;www.bicloo.nantesmetropole.fr;44000;-1,552166139129;47,227786338160
-3752;Station Accueil Chanzy;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Avenue Chanzy;;www.bicloo.nantesmetropole.fr;44000;-1,548018021790;47,225441394771
-3746;Station Accueil LU Lieu Unique;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Quai de Malakoff;;www.bicloo.nantesmetropole.fr;44000;-1,545924211177;47,215602785014
-3739;Station Abonnement Citï¿½ Internationale des Congrï¿½s;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Rue de Jemmapes;;www.bicloo.nantesmetropole.fr;44000;-1,545027483831;47,213168554028
-3737;station Accueil Baco;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Allï¿½e Baco;;www.bicloo.nantesmetropole.fr;44000;-1,548768937518;47,214338842647
-3734;Station Accueil Duchesse Anne;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Rue Henri IV;;www.bicloo.nantesmetropole.fr;44000;-1,547077220790;47,216528748586
-3730;Station Accueil Prairie au Duc;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Boulevard de la Prairie au Duc;;www.bicloo.nantesmetropole.fr;44200;-1,558882840172;47,204784819206
-3727;Station Abonnement Gare Maritime;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Quai Ernest Renaud;;www.bicloo.nantesmetropole.fr;44100;-1,572629532377;47,206609081175
-3726;Station Accueil Chantier Naval;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Rue Mathurin Brissonneau;;www.bicloo.nantesmetropole.fr;44100;-1,569543162242;47,208368839559
-3723;Station Abonnement Place Ricordeau;10;DEPLACEMENT;1003;Station Bicloo;;;;;;;www.bicloo.nantesmetropole.fr;44000;-1,552930075997;47,212116039221
-3722;Station Accueil Feydeau;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Rue Gaston Veil;;www.bicloo.nantesmetropole.fr;44000;-1,556882483425;47,211472898917
-3720;Station Abonnement Jean V;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Place Jean V;;www.bicloo.nantesmetropole.fr;44000;-1,565562892074;47,212180370735
-3717;Station Accueil Rubens;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Rue Rubens;;www.bicloo.nantesmetropole.fr;44000;-1,560287290723;47,214351440918
-3716;Station Accueil Bourse;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Allï¿½e de la Bourse;;www.bicloo.nantesmetropole.fr;44000;-1,559105277589;47,212094380848
-3715;Station Abonnement Commerce;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Allï¿½e Brancas;;www.bicloo.nantesmetropole.fr;44000;-1,557380722638;47,213145029425
-3652;Parking ouvrage Cathï¿½drale;10;DEPLACEMENT;1001;Parking;;;;NANTES;Rue Sully;;;44000;-1,551056168326;47,220813351072
-3651;Parking enclos CHU;10;DEPLACEMENT;1001;Parking;;;;NANTES;Quai de Tourville;;;44000;-1,557250233992;47,209361971599
-3650;Parking enclos Bellamy;10;DEPLACEMENT;1001;Parking;;;;NANTES;Impasse de la Courtine;;;44000;-1,557693692563;47,222360416101
-3649;Parking relais tram Bignon;10;DEPLACEMENT;1002;Parking relais;;;;ORVAULT;Rue des Verts Prï¿½s;;;44700;-1,598200225155;47,248975246611
-3648;Parking relais TER Gare de Pont-Rousseau;10;DEPLACEMENT;1002;Parking relais;;;;REZE;Avenue de la Libï¿½ration;;;44400;-1,548190272087;47,192800998840
-3839;Station Accueil Rï¿½gion;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Place Gaston Defferre;;www.bicloo.nantesmetropole.fr;44200;-1,525951275481;47,210753237185
-3837;Station Accueil Sï¿½billeau;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Rue Docteur Jules Sï¿½billeau;;www.bicloo.nantesmetropole.fr;44200;-1,533136362926;47,206768584698
-3835;Station Accueil Victor-Hugo;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Boulevard Victor Hugo;;www.bicloo.nantesmetropole.fr;44200;-1,551567193228;47,204014364440
-3831;Station Accueil Hauts-Pavï¿½s;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;Rue des Hauts Pavï¿½s;;www.bicloo.nantesmetropole.fr;44000;-1,567520471822;47,225482261833
-3777;Parking relais Grande Ouche;10;DEPLACEMENT;1002;Parking relais;;;;BOUGUENAIS;Impasse de la Boisselï¿½e;;;44340;-1,579472035256;47,181994835047
-3590;Parking Enclos Gare limitï¿½ 1h;10;DEPLACEMENT;1001;Parking;;;;NANTES;Quai de Malakoff;;;44000;-1,542675138846;47,215202123295
-3589;Parking enclos Gare Sud 2;10;DEPLACEMENT;1001;Parking;;;;NANTES;Quai de Malakoff;;;44000;-1,541343375842;47,214234036616
-3778;Parking relais busway Bourdonniï¿½res Ouest;10;DEPLACEMENT;1002;Parking relais;;;;NANTES;Rue des Bourdonniï¿½res;;;44200;-1,523151331556;47,186724242830
-3353;Gare St-Sï¿½bastien  Frï¿½ne Rond;10;DEPLACEMENT;1004;Transport en commun;100403;Rail;;ST-SEBASTIEN;Rue de l'Ouche Quinet;;;44230;-1,495928055875;47,190202612915
-3584;Parking relais tram Orvault Morliï¿½re;10;DEPLACEMENT;1002;Parking relais;;;;ORVAULT;Avenue de la Morliï¿½re;;;44700;-1,603049466762;47,246776647706
-3582;Parking relais Trentemoult;10;DEPLACEMENT;1002;Parking relais;;;;REZE;Rue Ordronneau;;;44400;-1,580687686374;47,191964989509
-3566;Parking relais TER Gare de Bouaye;10;DEPLACEMENT;1002;Parking relais;;;;BOUAYE;Allï¿½e Louis Armand;;;44830;-1,682099252575;47,138339716512
-3565;Parking relais TER Gare de Mauves-sur-Loire;10;DEPLACEMENT;1002;Parking relais;;;;MAUVES-SUR-LOIRE;Place de la Gare;;;44470;-1,388904886686;47,293258333932
-3564;Parking relais TER Gare de Thouarï¿½-sur-Loire;10;DEPLACEMENT;1002;Parking relais;;;;THOUARE-SUR-LOIRE;Rue des Ponts;;;44470;-1,441389353678;47,264711990884
-3562;Parking relais tram Neustrie;10;DEPLACEMENT;1002;Parking relais;;;;BOUGUENAIS;Chemin de la Neustrie;;;44340;-1,593272350857;47,175693308537
-3561;Parking relais Gare de Basse-Indre - Saint-Herblain;10;DEPLACEMENT;1002;Parking relais;;;;ST-HERBLAIN;Rue de la Gare;;;44800;-1,661038096461;47,204157974131
-3560;Parking relaisTrentemoult Roquios;10;DEPLACEMENT;1002;Parking relais;;;;REZE;Quai Surcouf;;;44400;-1,577783932063;47,195252511278
-3558;Parking relais tram Neustrie;10;DEPLACEMENT;1002;Parking relais;;;;BOUGUENAIS;Rue de la Neustrie;;;44340;-1,593399696482;47,176672451111
-3556;Parking relais TER Gare de Couï¿½ron;10;DEPLACEMENT;1002;Parking relais;;;;COUERON;Rue de la Gare;;;44220;-1,723637369742;47,221777198052
-3555;Parking enclos Gare Sud 3;10;DEPLACEMENT;1001;Parking;;;;NANTES;Rue Marcel Paul;;;44000;-1,537894828349;47,216135859474
-3554;Parking enclos Chï¿½teau;10;DEPLACEMENT;1001;Parking;;;;NANTES;Rue Henri IV;;;44000;-1,547850449685;47,216989960979
-3553;Gare St-Sï¿½bastien Pas Enchantï¿½s;10;DEPLACEMENT;1004;Transport en commun;100403;Rail;;ST-SEBASTIEN;Rue du Docteur Paul Michaux;;;44230;-1,511113063513;47,207008774038
-3552;Parking relais TER Gare des Pas Enchantï¿½s;10;DEPLACEMENT;1002;Parking relais;;;;ST-SEBASTIEN;Rue de la Loire;;;44230;-1,512996443075;47,208229054565
-3551;Parking enclos Baco-LU;10;DEPLACEMENT;1001;Parking;;;;NANTES;Allï¿½e Baco;;;44000;-1,549872883022;47,213855249030
-3550;Parking enclos Hï¿½tel Dieu;10;DEPLACEMENT;1001;Parking;;;;NANTES;Chaussï¿½e de la Madeleine;;;44000;-1,551983112304;47,211057086029
-3549;Parking enclos Feydeau;10;DEPLACEMENT;1001;Parking;;;;NANTES;Allï¿½e de l'Ile Gloriette;;;44000;-1,558438729504;47,211179655323
-3322;Gare Routiï¿½re (Bus);10;DEPLACEMENT;1004;Transport en commun;100404;Route;;VERTOU;Rue de l'Hï¿½pital;;;44120;-1,471194831325;47,168915124835
-3227;Parking relais tram Plaisance;10;DEPLACEMENT;1002;Parking relais;;;;ST-HERBLAIN;Route de Vannes;;;44800;-1,593440523965;47,240532662020
-3202;Parking relais TER Gare de Vertou Sud;10;DEPLACEMENT;1002;Parking relais;;;;VERTOU;Rue du Bois Rigaud;;;44120;-1,478608569977;47,185749806742
-3201;Parking relais TER Gare de Vertou Nord;10;DEPLACEMENT;1002;Parking relais;;;;VERTOU;Impasse de la Gare;;;44120;-1,479161854583;47,186402376370
-3200;Parc relais TER Frï¿½ne Rond;10;DEPLACEMENT;1002;Parking relais;;;;ST-SEBASTIEN;Rue de l'Ouche Quinet;;;44230;-1,496218308948;47,190549257522
-3198;Parking relais tram Goudy;10;DEPLACEMENT;1002;Parking relais;;;;NANTES;Rue Gabriel Goudy;;www.tan.fr;44200;-1,541047746943;47,196098946737
-3197;Parking relais tram Pirmil;10;DEPLACEMENT;1002;Parking relais;;;;NANTES;Rue Esnoult des Chï¿½telets;;www.tan.fr;44200;-1,541533594554;47,197358677638
-3196;Parking relais tram Renï¿½ Cassin;10;DEPLACEMENT;1002;Parking relais;;;;NANTES;Route de la Chapelle Sur Erdre;;www.tan.fr;44300;-1,574997907503;47,263950926010
-3195;Parking relais tram Trocardiï¿½re;10;DEPLACEMENT;1002;Parking relais;;;;REZE;Avenue Lï¿½on Blum;;www.tan.fr;44400;-1,571095589405;47,183292745883
-3194;Parking relais tram 8 Mai;10;DEPLACEMENT;1002;Parking relais;;;;REZE;Avenue Andrï¿½ Malraux;;www.tan.fr;44400;-1,551691451981;47,190177914121
-3192;Parking relais tram La Beaujoire;10;DEPLACEMENT;1002;Parking relais;;;;NANTES;Rue Colette;;www.tan.fr;44300;-1,527398470576;47,259483303650
-3191;Parking relais tram Recteur Schmitt;10;DEPLACEMENT;1002;Parking relais;;;;NANTES;Rue Recteur Schmitt;;www.tan.fr;44300;-1,552470384647;47,252027701738
-3190;Parking relais Tram Franï¿½ois Mitterrand;10;DEPLACEMENT;1002;Parking relais;;;;ST-HERBLAIN;Rue Virginia Woolf;;www.tan.fr;44800;-1,639484143055;47,221706200870
-3189;Parking relais tram Le Cardo;10;DEPLACEMENT;1002;Parking relais;;;;ORVAULT;Esplanade du Cardo;;www.tan.fr;44700;-1,584511980791;47,262502093615
-3188;Parking relais Tram Frachon;10;DEPLACEMENT;1002;Parking relais;;;;ST-HERBLAIN;Boulevard Salvador Allende;;www.tan.fr;44800;-1,621633361782;47,218696136551
-3830;Station Accueil Anatole-France;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;34 Rue Alexandre Dumas;;www.bicloo.nantesmetropole.fr;44000;-1,571392360493;47,223616443722
-3838;Station Abonnement Millerand;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;9 Boulevard Alexandre Millerand;;;44200;-1,530161413494;47,208217819463
-3728;Station Abonnement Machines de l'Ile;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;2 Boulevard Lï¿½on Bureau;;www.bicloo.nantesmetropole.fr;44200;-1,564825806150;47,206930260547
-3994;Station Abonnement Rond Point Vannes;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;63B Boulevard Lelasseur;;www.bicloo.nantesmetropole.fr;44000;-1,572012091255;47,229675345348
-3744;Station Accueil Stade Saupin;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;35 Quai de Malakoff;;www.bicloo.nantesmetropole.fr;44000;-1,539639581349;47,213978001005
-3765;Station Accueil Malakoff;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;13 Quai de Malakoff;;www.bicloo.nantesmetropole.fr;44000;-1,536420715916;47,213234526632
-3724;Station Accueil Quai Moncousu;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;10 Quai Moncousu;;www.bicloo.nantesmetropole.fr;44000;-1,555248414263;47,209365456061
-3725;Station Accueil Madeleine;10;DEPLACEMENT;1003;Station Bicloo;;;;NANTES;2 Quai Moncousu;;www.bicloo.nantesmetropole.fr;44000;-1,550430474908;47,208815874652
-3583;Parking relais tram Morliï¿½re Paquelais;10;DEPLACEMENT;1002;Parking relais;;;;ORVAULT;50 Avenue de la Paquelais;;;44700;-1,602838747224;47,247823521862
+663,000000000000000;Gare Routière;10,000000000000000;DEPLACEMENT;1004,000000000000000;Transport en commun;100404,000000000000000;Route;;NANTES;Allée de la Maison Rouge;02 40 77 62 70;;44000;-1,552760771850;47,212740250147
+288,000000000000000;Parking ouvrage Graslin;10,000000000000000;DEPLACEMENT;1001,000000000000000;Parking;;;;NANTES;Rue Scribe;02 40 73 08 15;www.nge-nantes.fr;44000;-1,562571816217;47,214310210506
+281,000000000000000;Gare de Nantes Nord - Direction régionale;10,000000000000000;DEPLACEMENT;1004,000000000000000;Transport en commun;100403,000000000000000;Rail;;NANTES;Boulevard de Stalingrad;08 36 35 35 35;www.sncf.fr;44000;-1,542359966056;47,217443160658
+280,000000000000000;Parking ouvrage Gare Nord;10,000000000000000;DEPLACEMENT;1001,000000000000000;Parking;;;;NANTES;Boulevard de Stalingrad;02 40 74 23 05;www.nge-nantes.fr;44000;-1,544984334115;47,216689040172
+261,000000000000000;Gare SNCF de Chantenay;10,000000000000000;DEPLACEMENT;1004,000000000000000;Transport en commun;100403,000000000000000;Rail;;NANTES;Rue de la Gare de Chantenay;08 92 35 35 35;www.sncf.com;44100;-1,594354993169;47,197202245403
+245,000000000000000;Gare SNCF de Doulon;10,000000000000000;DEPLACEMENT;1004,000000000000000;Transport en commun;100403,000000000000000;Rail;;NANTES;Rue des Perrines;02 40 08 15 40;www.sncf.fr;44300;-1,517244027262;47,228528504866
+3655,000000000000000;Parking relais Maraîchers;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;VERTOU;Rue de la Grand' Maison;;;44120;-1,510859655582;47,185302793647
+3630,000000000000000;Parking relais busway Chapeau Verni;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;VERTOU;Route de Clisson;;;44230;-1,511298891814;47,189530076279
+3629,000000000000000;Parking relais busway Bourdonnières;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;NANTES;Boulevard de Vendée;;;44200;-1,521154294565;47,186255590967
+3628,000000000000000;Parking relais busway Gréneraie;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;NANTES;Boulevard Emile Gabory;;;44200;-1,533333623247;47,200139039269
+677,000000000000000;Parking ouvrage Commerce;10,000000000000000;DEPLACEMENT;1001,000000000000000;Parking;;;;NANTES;Place du Commerce;02 40 48 19 66;www.nge-nantes.fr;44000;-1,557713219690;47,213120285802
+3627,000000000000000;Parking relais busway Porte de Vertou;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;VERTOU;Boulevard Auguste Priou;;;44120;-1,505160177649;47,180175295986
+134,000000000000000;Parking ouvrage Médiathèque;10,000000000000000;DEPLACEMENT;1001,000000000000000;Parking;;;;NANTES;Rue Neuve des Capucins;02 40 69 07 79;www.nge-nantes.fr;44000;-1,562338175962;47,210870827100
+2520,000000000000000;Gare de Vertou;10,000000000000000;DEPLACEMENT;1004,000000000000000;Transport en commun;100403,000000000000000;Rail;;VERTOU;Impasse de la Gare;08 92 35 35 35;www.sncf.com;44120;-1,478031948559;47,186143479464
+2519,000000000000000;Gare de Mauves;10,000000000000000;DEPLACEMENT;1004,000000000000000;Transport en commun;100403,000000000000000;Rail;;MAUVES-SUR-LOIRE;Place de la Gare;08 92 35 35 35;www.sncf.com;44470;-1,389303478987;47,293008169788
+2518,000000000000000;Gare de Thouaré s/ Loire;10,000000000000000;DEPLACEMENT;1004,000000000000000;Transport en commun;100403,000000000000000;Rail;;THOUARE-SUR-LOIRE;Place de la République;08 92 35 35 35;www.sncf.com;44470;-1,440963860714;47,265120118465
+2517,000000000000000;Gare Rezé Pont Rousseau;10,000000000000000;DEPLACEMENT;1004,000000000000000;Transport en commun;100403,000000000000000;Rail;;REZE;Rue de la Gare;08 92 35 35 35;www.sncf.com;44400;-1,549392105427;47,193331595479
+2497,000000000000000;Bacs de la Loire;10,000000000000000;DEPLACEMENT;1004,000000000000000;Transport en commun;100402,000000000000000;Fluvial;;COUERON;RD 91;;;44220;-1,752254729147;47,205927467615
+2452,000000000000000;Gare de Couëron;10,000000000000000;DEPLACEMENT;1004,000000000000000;Transport en commun;100403,000000000000000;Rail;;COUERON;Rue de la Gare;08 92 35 35 35;www.sncf.com;44220;-1,723599399918;47,221944187514
+2375,000000000000000;Gare de Bouaye;10,000000000000000;DEPLACEMENT;1004,000000000000000;Transport en commun;100403,000000000000000;Rail;;BOUAYE;Allée Louis Armand;08 36 35 35 35;www.sncf.com;44830;-1,681075269834;47,138144687395
+2374,000000000000000;Bacs de Loire;10,000000000000000;DEPLACEMENT;1004,000000000000000;Transport en commun;100402,000000000000000;Fluvial;;INDRE;Quai Besnard;02 40 86 01 29;;44610;-1,673918470528;47,197769257259
+2533,000000000000000;Port de Couëron;10,000000000000000;DEPLACEMENT;1004,000000000000000;Transport en commun;100402,000000000000000;Fluvial;;COUERON;Boulevard Gambetta;02 51 84 94 51;www.nge-nantes.fr/;44220;-1,729959223793;47,209125688498
+2532,000000000000000;Port de Trentemoult;10,000000000000000;DEPLACEMENT;1004,000000000000000;Transport en commun;100402,000000000000000;Fluvial;;REZE;Allée Claude Choëmet;02 51 84 94 51;http;44400;-1,578906164935;47,195374526174
+2109,000000000000000;Aéroport Nantes Atlantique Château Bougon;10,000000000000000;DEPLACEMENT;1004,000000000000000;Transport en commun;100401,000000000000000;Aérien;Public;BOUGUENAIS;Rue Clément Ader;02 40 84 80 00;www.nantes.aeroport.fr;44340;-1,601782069837;47,157519148192
+1805,000000000000000;Gare de Basse Indre St-Herblain;10,000000000000000;DEPLACEMENT;1004,000000000000000;Transport en commun;100403,000000000000000;Rail;Public;ST-HERBLAIN;Rue de la Gare;08 92 35 35 35;www.sncf.fr;44800;-1,660312841280;47,204083239044
+3800,000000000000000;Parking de la Fourche;10,000000000000000;DEPLACEMENT;1001,000000000000000;Parking;;;;LES-SORINIERES;Rue de Nantes;;;44840;-1,533525919193;47,151083714948
+3700,000000000000000;Station Accueil Place Edouard Normand;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Place Edouard Normand;;www.bicloo.nantesmetropole.fr;44000;-1,563494733376;47,219028032543
+3699,000000000000000;Station Accueil Place Aristide Briand;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Place Aristide Briand;;www.bicloo.nantesmetropole.fr;44000;-1,563005503482;47,217196287643
+3695,000000000000000;Station Accueil Calvaire;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Place des Volontaires de la Défense Passive;;www.bicloo.nantesmetropole.fr;44000;-1,560606306876;47,215599181963
+3692,000000000000000;Station Abonnement Boucherie;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Rue de la Boucherie;;www.bicloo.nantesmetropole.fr;44000;-1,557090686786;47,216208142635
+3687,000000000000000;Station Accueil Strasbourg;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Place Tirant Lo Blanc;;www.bicloo.nantesmetropole.fr;44000;-1,551617564984;47,216532854728
+1581,000000000000000;Capitainerie du Port Atlantique Nantes Saint Nazaire;10,000000000000000;DEPLACEMENT;1004,000000000000000;Transport en commun;100402,000000000000000;Fluvial;;NANTES;Quai Ernest Renaud;02 40 44 20 53;www.nantes.port.fr;44100;-1,573981391341;47,205400782347
+1341,000000000000000;Parking relais tram Recteur Schmitt;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;NANTES;Rue Recteur Schmitt;;www.tan.fr;44300;-1,552903104379;47,251735253868
+1658,000000000000000;Service Maritime et Navigation Ecluse Saint Félix;10,000000000000000;DEPLACEMENT;1004,000000000000000;Transport en commun;100402,000000000000000;Fluvial;;NANTES;Quai Ferdinand Favre;02 40 71 02 19;www.equipement.gouv.fr/france.ocean;44000;-1,540898999522;47,212528607285
+1624,000000000000000;Port de l'Erdre;10,000000000000000;DEPLACEMENT;1004,000000000000000;Transport en commun;100402,000000000000000;Fluvial;;NANTES;Quai de Versailles;02 40 37 04 62;www.nge-nantes.fr;44000;-1,553724598010;47,225203577314
+3776,000000000000000;Parking relais tram Marcel Paul;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;ST-HERBLAIN;Boulevard Marcel Paul;;;44800;-1,618008349639;47,245904569813
+3712,000000000000000;Station Accueil Place Edit de Nantes;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Place de l'Edit de Nantes;;www.bicloo.nantesmetropole.fr;44100;-1,567610750129;47,214459027951
+3708,000000000000000;Station Accueil Versailles;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Quai de Versailles;;www.bicloo.nantesmetropole.fr;44000;-1,553728032107;47,224423383876
+3705,000000000000000;Station Accueil Marché Talensac Sud;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Rue de Talensac;;www.bicloo.nantesmetropole.fr;44000;-1,556494771798;47,221154818394
+1046,000000000000000;Parking ouvrage Talensac;10,000000000000000;DEPLACEMENT;1001,000000000000000;Parking;;;;NANTES;Rue Le Nôtre;02 40 89 26 50;www.nge-nantes.fr;44000;-1,558357299902;47,220255981046
+1044,000000000000000;Parking ouvrage Cité des Congrès;10,000000000000000;DEPLACEMENT;1001,000000000000000;Parking;;;;NANTES;Avenue Jean Claude Bonduelle;02 40 48 78 64;www.nge-nantes.fr;44000;-1,543971277166;47,212901670902
+1043,000000000000000;Parking ouvrage Aristide Briand;10,000000000000000;DEPLACEMENT;1001,000000000000000;Parking;;;;NANTES;Place Aristide Briand;02 40 47 06 05;;44000;-1,562936418080;47,217093604857
+3742,000000000000000;Station Abonnement Gaëtan Rondeau;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;20 Rue Gaëtan Rondeau;;www.bicloo.nantesmetropole.fr;44200;-1,537600139625;47,205407211862
+3740,000000000000000;Station Accueil Magellan;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;11 Rue de Belfort;;www.bicloo.nantesmetropole.fr;44000;-1,544248263392;47,210683975483
+1045,000000000000000;Parking ouvrage Gare Sud;10,000000000000000;DEPLACEMENT;1001,000000000000000;Parking;;;;NANTES;32 Rue de Cornulier;02 40 08 15 28;;44000;-1,541036828463;47,216149635954
+3714,000000000000000;Station accueil Duguay Trouin;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;7 Allée Duguay Trouin;;www.bicloo.nantesmetropole.fr;44000;-1,555288508406;47,213461578790
+3721,000000000000000;Station Accueil Alger;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;5 Rue d'Alger;;www.bicloo.nantesmetropole.fr;44100;-1,566674313665;47,210705238574
+3685,000000000000000;Station Abonnement Préfecture;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;5 Quai Ceineray;;www.bicloo.nantesmetropole.fr;44000;-1,554176048615;47,220195066995
+3747,000000000000000;Station Abonnement Gare Nord;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;1 Place Charles le Roux;;www.bicloo.nantesmetropole.fr;44000;-1,542240968402;47,218141404614
+3709,000000000000000;Station Accueil Descartes;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;2 Rue Descartes;;www.bicloo.nantesmetropole.fr;44000;-1,565564088162;47,216279719599
+3754,000000000000000;Station Accueil Livet;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;65 Rue Dufour;;www.bicloo.nanresmetropole.fr;44000;-1,545216320958;47,224095495505
+3758,000000000000000;Station Accueil Félibien;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;19 Rue Félibien;;www.bicloo.nantesmetropole.fr;44000;-1,566849350985;47,220766478732
+3757,000000000000000;Station Abonnement Marché Talensac Nord;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;17 Rue de Bel Air;;www.bicloo.nantesmetropole.fr;44000;-1,559069342877;47,221910341954
+3745,000000000000000;Station Abonnement Gare Sud;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;12 Rue de Lourmel;;www.bicloo.nanresmetropole.fr;44000;-1,542865960917;47,215930742147
+1042,000000000000000;Gare de Nantes Sud;10,000000000000000;DEPLACEMENT;1004,000000000000000;Transport en commun;100403,000000000000000;Rail;;NANTES;2 Rue de Lourmel;;www.sncf.fr;44000;-1,541558460265;47,216448854427
+3750,000000000000000;Station Abonnement Saint Clément;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;37 Rue Maréchal Joffre;;www.bicloo.nantesmetropole.fr;44000;-1,546931671984;47,221973737285
+1041,000000000000000;Gare Routière Cariane Atlantique;10,000000000000000;DEPLACEMENT;1004,000000000000000;Transport en commun;100404,000000000000000;Route;;NANTES;5 Allée Duquesne;02 40 20 46 99;;44000;-1,556650996308;47,217320024972
+3690,000000000000000;Station Abonnement Place du Cirque;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;7 Allée Duquesne;;www.bicloo.nantesmetropole.fr;44000;-1,556869629336;47,217652287732
+3689,000000000000000;Station Accueil Brossard;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;12 Allée Duquesne;;www.bicloo.nantesmetropole.fr;44000;-1,556327090290;47,218822583124
+3704,000000000000000;Station Abonnement Bellamy;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;29 Rue Paul Bellamy;;www.bicloo.nantesmetropole.fr;44000;-1,557659854435;47,223348795628
+3952,000000000000000;Station Accueil Bel Air;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;102 Rue Paul Bellamy;;www.bicloo.nantesmetropole.fr;44000;-1,560041221375;47,226406033943
+3731,000000000000000;Station Accueil Place République;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;3 Place de la République;;www.bicloo.nantesmetropole.fr;44200;-1,555193861635;47,205401226591
+4004,000000000000000;Station Accueil Saint-Donatien;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;69 Rue Général Buat;;www.bicloo.nantesmetropole.fr;44000;-1,540402417437;47,229128762669
+3707,000000000000000;Station Accueil Buat;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;101 Rue Général Buat;;www.bicloo.nantesmetropole.fr;44000;-1,542422643412;47,227156972600
+3998,000000000000000;Station Accueil Saint-Jacques;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;85 Rue Saint Jacques;;www.bicloo.nantesmetropole.fr;44200;-1,536589628879;47,195859160598
+3718,000000000000000;Station Accueil Racine;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;5 Rue Racine;;www.bicloo.nantesmetropole.fr;44000;-1,563187705896;47,213483260326
+3834,000000000000000;Station Accueil Saint-Aignan;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;65 Boulevard Saint Aignan;;www.bicloo.nantesmetropole.fr;44100;-1,578715096614;47,207444063946
+3733,000000000000000;Station Abonnement Verdun;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;17 Rue de Verdun;;www.bicloo.nantesmetropole.fr;44000;-1,551868176513;47,217516769716
+3691,000000000000000;Station Accueil Barillerie;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;2 Allée Penthiévre;;www.bicloo.nantesmetropole.fr;44000;-1,556100379995;47,215409629938
+3836,000000000000000;Station Abonnement Mangin;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;8 Place Victor Mangin;;www.bicloo.nantesmetropole.fr;44200;-1,545497627403;47,201021927200
+282,000000000000000;Gare Fluviale Bateaux Nantais;10,000000000000000;DEPLACEMENT;1004,000000000000000;Transport en commun;100402,000000000000000;Fluvial;;NANTES;15 Place Waldeck Rousseau;02 40 14 51 14;www.bateaux-nantais.fr;44000;-1,551636739169;47,227968476642
+3833,000000000000000;Station Accueil Mellinet;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;1 Boulevard Allard;;www.bicloo.nantesmetropole.fr;44100;-1,577126765418;47,211489622114
+299,000000000000000;Parking ouvrage Tour Bretagne;10,000000000000000;DEPLACEMENT;1001,000000000000000;Parking;;;;NANTES;4 Place de Bretagne;02 40 47 92 14;www.nge-nantes.fr;44000;-1,558201639362;47,217739419820
+3693,000000000000000;Station Accueil Guépin;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;2 Rue du Calvaire;;www.bicloo.nantesmetropole.fr;44000;-1,559155737871;47,215829434071
+3760,000000000000000;Station Accueil Place Canclaux;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;8 Place Canclaux;;www.bicloo.nantesmetropole.fr;44100;-1,575006081926;47,214371684292
+3735,000000000000000;Station Abonnement Château;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;2 Rue des Etats;;www.bicloo.nantesmetropole.fr;44000;-1,550276002344;47,215135932323
+3706,000000000000000;Station Accueil Moquechien;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;8 Rue Moquechien;;www.bicloo.nantesmetropole.fr;44000;-1,555582979271;47,220379047481
+3759,000000000000000;Station Accueil Sarradin;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;4 Place Emile Sarradin;;www.bicloo.nantesmetropole.fr;44000;-1,570507177852;47,220883766721
+1583,000000000000000;Port Autonome de Nantes Saint Nazaire;10,000000000000000;DEPLACEMENT;1004,000000000000000;Transport en commun;100402,000000000000000;Fluvial;;NANTES;18 Quai Ernest Renaud;02 40 44 20 20;www.nantes.port.fr;44100;-1,574711354727;47,205511114895
+3719,000000000000000;Station Abonnement Médiathèque;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;24 Quai de la Fosse;;www.bicloo.nantesmetropole.fr;44000;-1,561841844952;47,210912654925
+3741,000000000000000;Station Accueil Vincent Gache;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;9 Rue François Albert;;www.bicloo.nantesmetropole.fr;44200;-1,541850967268;47,206884735167
+3732,000000000000000;Station Abonnement Martyrs Nantais;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;21 Boulevard Gaston Doumergue;;www.bicloo.nantesmetropole.fr;44200;-1,548179850547;47,207035364629
+3696,000000000000000;Station Abonnement Place Delorme;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;2 Boulevard Gabriel Guist'Hau;;www.bicloo.nantesmetropole.fr;44000;-1,563963566828;47,215158134429
+3710,000000000000000;Station Accueil Guist'hau Nord;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;44 Boulevard Gabriel Guist'Hau;;www.bicloo.nantesmetropole.fr;44000;-1,569267206185;47,217940185225
+3711,000000000000000;Station Abonnement Guist'hau Sud;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;26T Boulevard Gabriel Guist'Hau;;www.bicloo.nantesmetropole.fr;44000;-1,567023357312;47,216839445305
+3701,000000000000000;Station Accueil Sainte Elisabeth;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;3 Place Sainte Elisabeth;;www.bicloo.nantesmetropole.fr;44000;-1,561588768418;47,219225442242
+3755,000000000000000;Station Accueil Manufacture;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;11 Boulevard de Stalingrad;;www.bicloo.nantesmetropole.fr;44000;-1,535865350197;47,219227699299
+3686,000000000000000;Station Accueil Hôtel de Ville;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;29 Rue de Strasbourg;;www.bicloo.nantesmetropole.fr;44000;-1,553544268536;47,218564001564
+3586,000000000000000;Parking relais tram Beauséjour;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;NANTES;142 Route de Vannes;;;44100;-1,587343748836;47,238413521397
+3698,000000000000000;Station Accueil Bretagne Nord;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;1 Rue Léopold Cassegrain;;www.bicloo.nantesmetropole.fr;44000;-1,558667159705;47,218444866727
+4001,000000000000000;Station Abonnement Michelet;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;38 Boulevard Michelet;;www.bicloo.nantesmetropole.fr;44300;-1,556388702048;47,235083706675
+3738,000000000000000;Station Accueil Olivettes;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;10 Rue des Olivettes;;www.bicloo.nantesmetropole.fr;44000;-1,549959351078;47,211749426576
+3688,000000000000000;Station Accueil Moulin;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;18 Rue du Moulin;;www.bicloo.nantesmetropole.fr;44000;-1,554425847107;47,216646871200
+284,000000000000000;Parking ouvrage Decré-Bouffay;10,000000000000000;DEPLACEMENT;1001,000000000000000;Parking;;;;NANTES;18 Rue du Moulin;02 40 47 69 30;;44000;-1,554004632271;47,216662619964
+3751,000000000000000;Station Accueil Sully;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;7 Cours Sully;;www.bicloo.nantesmetropole.fr;44000;-1,551684707307;47,222598822914
+3762,000000000000000;Station Accueil Place René Bouhier;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;8 Place René Bouhier;;www.bicloo.nantesmetropole.fr;44100;-1,570589286667;47,209442040964
+3697,000000000000000;Station Abonnement Bretagne Sud;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;1 Rue Pierre Chéreau;;www.bicloo.nantesmetropole.fr;44000;-1,559157317875;47,216750059447
+3743,000000000000000;Station Accueil Palais des Sports;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;21 Rue René Viviani;;www.bicloo.nantesmetropole.fr;44200;-1,535999160686;47,208477196156
+3703,000000000000000;Station Accueil Saint Similien;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;1 Place Saint Similien;;www.bicloo.nantesmetropole.fr;44000;-1,558928909642;47,219835952652
+3748,000000000000000;Station Accueil Jardins des Plantes;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;6 Rue Stanislas Baudry;;www.bicloo.nantesmetropole.fr;44000;-1,544764109624;47,219931771933
+3702,000000000000000;Station Abonnement Place Viarme;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;23 Place Viarme;;www.bicloo.nantesmetropole.fr;44000;-1,563326981143;47,221440878007
+3729,000000000000000;Station Accueil Palais de Justice;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;19 Quai François Mitterrand;;www.bicloo.nantesmetropole.fr;44200;-1,561242453731;47,208363178205
+3951,000000000000000;Parking ouvrage Les Machines;10,000000000000000;DEPLACEMENT;1001,000000000000000;Parking;;;;NANTES;Rue Arthur III;;;44200;-1,562727792363;47,205900622064
+3950,000000000000000;Parking Enclos Courte Durée Gare Nord;10,000000000000000;DEPLACEMENT;1001,000000000000000;Parking;;;;NANTES;Boulevard de Stalingrad;;;44000;-1,543478750844;47,217264732216
+3974,000000000000000;Station Accueil Berlin;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Boulevard de Berlin;;http://www.bicloo.nantesmetropole.fr;44000;-1,529927520203;47,213866740082
+4005,000000000000000;Station Abonnement Huit Mai;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;REZE;Place du 8 Mai 1945;;www.bicloo.nantesmetropole.fr;44400;-1,551821259531;47,189998620130
+4003,000000000000000;Station Abonnement Facultés;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Boulevard Guy Mollet;;www.bicloo.nantesmetropole.fr;44300;-1,555338349805;47,246323288345
+4002,000000000000000;Station Abonnement Petit Port;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Place du Huit Mai 1945;;www.bicloo.nantesmetropole.fr;44300;-1,556380986355;47,243262644076
+4000,000000000000000;Station Abonnement Tortière;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Boulevard Eugène Orieux;;www.bicloo.nantesmetropole.fr;44000;-1,549473437411;47,235344800187
+3999,000000000000000;Station Abonnement Gréneraie;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Côte Saint Sébastien;;www.bicloo.nantesmetropole.fr;44200;-1,534607153787;47,199970710192
+3997,000000000000000;Station Abonnement Pirmil;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Rue Esnoult des Châtelets;;www.bicloo.nantesmetropole.fr;44200;-1,541450633643;47,196629488228
+3996,000000000000000;Station Abonnement Gare Pont Rousseau;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;REZE;Rue de la Gare;;www.bicloo.nantesmetropole.fr;44400;-1,549005454463;47,193149276695
+3995,000000000000000;Station Abonnement Procé;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Boulevard Gaston Serpette;;www.bicloo.nantesmetropole.fr;44000;-1,576583566602;47,224321586199
+3993,000000000000000;Station Abonnement Rond Point Rennes;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Rond-Point de Rennes;;www.bicloo.nantesmetropole.fr;44000;-1,566016980776;47,233091703755
+3990,000000000000000;Parking Viviani;10,000000000000000;DEPLACEMENT;1001,000000000000000;Parking;;;;NANTES;Rue René Viviani;;;44200;-1,536197069789;47,208775604289
+3989,000000000000000;Parking Gare Sud 4;10,000000000000000;DEPLACEMENT;1001,000000000000000;Parking;;;;NANTES;Mail Pablo Picasso;;;44000;-1,537545042601;47,215209926075
+3973,000000000000000;Station Accueil Picasso;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;;;;http://www.bicloo.nantesmetropole.fr/;44000;-1,534229121012;47,216343586847
+3764,000000000000000;Station Accueil De Gaulle;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Boulevard Général de Gaulle;;www.bicloo.nantesmetropole.fr;44200;-1,540568733291;47,208460378395
+3763,000000000000000;Station Accueil Ecole d'Architecture;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Quai François Mitterrand;;www.bicloo.nantesmetropole.fr;44200;-1,557551259669;47,207616902001
+3761,000000000000000;Station Accueil Lamoricière;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Rue Lamoricière;;www.bicloo.nantesmetropole.fr;44100;-1,571398998401;47,212365614395
+3756,000000000000000;Station Abonnement Foch Cathédrale;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Rue de l'Evêché;;www.bicloo.nantesmetropole.fr;44000;-1,550480136778;47,218694565936
+3753,000000000000000;Station Accueil Place Waldeck Rousseau;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Place Waldeck Rousseau;;www.bicloo.nantesmetropole.fr;44000;-1,552166139129;47,227786338160
+3752,000000000000000;Station Accueil Chanzy;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Avenue Chanzy;;www.bicloo.nantesmetropole.fr;44000;-1,548018021790;47,225441394771
+3746,000000000000000;Station Accueil LU Lieu Unique;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Quai de Malakoff;;www.bicloo.nantesmetropole.fr;44000;-1,545924211177;47,215602785014
+3739,000000000000000;Station Abonnement Cité Internationale des Congrès;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Rue de Jemmapes;;www.bicloo.nantesmetropole.fr;44000;-1,545027483831;47,213168554028
+3737,000000000000000;station Accueil Baco;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Allée Baco;;www.bicloo.nantesmetropole.fr;44000;-1,548768937518;47,214338842647
+3734,000000000000000;Station Accueil Duchesse Anne;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Rue Henri IV;;www.bicloo.nantesmetropole.fr;44000;-1,547077220790;47,216528748586
+3730,000000000000000;Station Accueil Prairie au Duc;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Boulevard de la Prairie au Duc;;www.bicloo.nantesmetropole.fr;44200;-1,558882840172;47,204784819206
+3727,000000000000000;Station Abonnement Gare Maritime;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Quai Ernest Renaud;;www.bicloo.nantesmetropole.fr;44100;-1,572629532377;47,206609081175
+3726,000000000000000;Station Accueil Chantier Naval;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Rue Mathurin Brissonneau;;www.bicloo.nantesmetropole.fr;44100;-1,569543162242;47,208368839559
+3723,000000000000000;Station Abonnement Place Ricordeau;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;;;;www.bicloo.nantesmetropole.fr;44000;-1,552930075997;47,212116039221
+3722,000000000000000;Station Accueil Feydeau;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Rue Gaston Veil;;www.bicloo.nantesmetropole.fr;44000;-1,556882483425;47,211472898917
+3720,000000000000000;Station Abonnement Jean V;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Place Jean V;;www.bicloo.nantesmetropole.fr;44000;-1,565562892074;47,212180370735
+3717,000000000000000;Station Accueil Rubens;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Rue Rubens;;www.bicloo.nantesmetropole.fr;44000;-1,560287290723;47,214351440918
+3716,000000000000000;Station Accueil Bourse;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Allée de la Bourse;;www.bicloo.nantesmetropole.fr;44000;-1,559105277589;47,212094380848
+3715,000000000000000;Station Abonnement Commerce;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Allée Brancas;;www.bicloo.nantesmetropole.fr;44000;-1,557380722638;47,213145029425
+3652,000000000000000;Parking ouvrage Cathédrale;10,000000000000000;DEPLACEMENT;1001,000000000000000;Parking;;;;NANTES;Rue Sully;;;44000;-1,551056168326;47,220813351072
+3651,000000000000000;Parking enclos CHU;10,000000000000000;DEPLACEMENT;1001,000000000000000;Parking;;;;NANTES;Quai de Tourville;;;44000;-1,557250233992;47,209361971599
+3650,000000000000000;Parking enclos Bellamy;10,000000000000000;DEPLACEMENT;1001,000000000000000;Parking;;;;NANTES;Impasse de la Courtine;;;44000;-1,557693692563;47,222360416101
+3649,000000000000000;Parking relais tram Bignon;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;ORVAULT;Rue des Verts Prés;;;44700;-1,598200225155;47,248975246611
+3648,000000000000000;Parking relais TER Gare de Pont-Rousseau;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;REZE;Avenue de la Libération;;;44400;-1,548190272087;47,192800998840
+3839,000000000000000;Station Accueil Région;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Place Gaston Defferre;;www.bicloo.nantesmetropole.fr;44200;-1,525951275481;47,210753237185
+3837,000000000000000;Station Accueil Sébilleau;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Rue Docteur Jules Sébilleau;;www.bicloo.nantesmetropole.fr;44200;-1,533136362926;47,206768584698
+3835,000000000000000;Station Accueil Victor-Hugo;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Boulevard Victor Hugo;;www.bicloo.nantesmetropole.fr;44200;-1,551567193228;47,204014364440
+3831,000000000000000;Station Accueil Hauts-Pavés;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;Rue des Hauts Pavés;;www.bicloo.nantesmetropole.fr;44000;-1,567520471822;47,225482261833
+3777,000000000000000;Parking relais Grande Ouche;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;BOUGUENAIS;Impasse de la Boisselée;;;44340;-1,579472035256;47,181994835047
+3590,000000000000000;Parking Enclos Gare limité 1h;10,000000000000000;DEPLACEMENT;1001,000000000000000;Parking;;;;NANTES;Quai de Malakoff;;;44000;-1,542675138846;47,215202123295
+3589,000000000000000;Parking enclos Gare Sud 2;10,000000000000000;DEPLACEMENT;1001,000000000000000;Parking;;;;NANTES;Quai de Malakoff;;;44000;-1,541343375842;47,214234036616
+3778,000000000000000;Parking relais busway Bourdonnières Ouest;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;NANTES;Rue des Bourdonnières;;;44200;-1,523151331556;47,186724242830
+3353,000000000000000;Gare St-Sébastien  Frêne Rond;10,000000000000000;DEPLACEMENT;1004,000000000000000;Transport en commun;100403,000000000000000;Rail;;ST-SEBASTIEN;Rue de l'Ouche Quinet;;;44230;-1,495928055875;47,190202612915
+3584,000000000000000;Parking relais tram Orvault Morlière;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;ORVAULT;Avenue de la Morlière;;;44700;-1,603049466762;47,246776647706
+3582,000000000000000;Parking relais Trentemoult;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;REZE;Rue Ordronneau;;;44400;-1,580687686374;47,191964989509
+3566,000000000000000;Parking relais TER Gare de Bouaye;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;BOUAYE;Allée Louis Armand;;;44830;-1,682099252575;47,138339716512
+3565,000000000000000;Parking relais TER Gare de Mauves-sur-Loire;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;MAUVES-SUR-LOIRE;Place de la Gare;;;44470;-1,388904886686;47,293258333932
+3564,000000000000000;Parking relais TER Gare de Thouaré-sur-Loire;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;THOUARE-SUR-LOIRE;Rue des Ponts;;;44470;-1,441389353678;47,264711990884
+3562,000000000000000;Parking relais tram Neustrie;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;BOUGUENAIS;Chemin de la Neustrie;;;44340;-1,593272350857;47,175693308537
+3561,000000000000000;Parking relais Gare de Basse-Indre - Saint-Herblain;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;ST-HERBLAIN;Rue de la Gare;;;44800;-1,661038096461;47,204157974131
+3560,000000000000000;Parking relaisTrentemoult Roquios;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;REZE;Quai Surcouf;;;44400;-1,577783932063;47,195252511278
+3558,000000000000000;Parking relais tram Neustrie;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;BOUGUENAIS;Rue de la Neustrie;;;44340;-1,593399696482;47,176672451111
+3556,000000000000000;Parking relais TER Gare de Couëron;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;COUERON;Rue de la Gare;;;44220;-1,723637369742;47,221777198052
+3555,000000000000000;Parking enclos Gare Sud 3;10,000000000000000;DEPLACEMENT;1001,000000000000000;Parking;;;;NANTES;Rue Marcel Paul;;;44000;-1,537894828349;47,216135859474
+3554,000000000000000;Parking enclos Château;10,000000000000000;DEPLACEMENT;1001,000000000000000;Parking;;;;NANTES;Rue Henri IV;;;44000;-1,547850449685;47,216989960979
+3553,000000000000000;Gare St-Sébastien Pas Enchantés;10,000000000000000;DEPLACEMENT;1004,000000000000000;Transport en commun;100403,000000000000000;Rail;;ST-SEBASTIEN;Rue du Docteur Paul Michaux;;;44230;-1,511113063513;47,207008774038
+3552,000000000000000;Parking relais TER Gare des Pas Enchantés;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;ST-SEBASTIEN;Rue de la Loire;;;44230;-1,512996443075;47,208229054565
+3551,000000000000000;Parking enclos Baco-LU;10,000000000000000;DEPLACEMENT;1001,000000000000000;Parking;;;;NANTES;Allée Baco;;;44000;-1,549872883022;47,213855249030
+3550,000000000000000;Parking enclos Hôtel Dieu;10,000000000000000;DEPLACEMENT;1001,000000000000000;Parking;;;;NANTES;Chaussée de la Madeleine;;;44000;-1,551983112304;47,211057086029
+3549,000000000000000;Parking enclos Feydeau;10,000000000000000;DEPLACEMENT;1001,000000000000000;Parking;;;;NANTES;Allée de l'Ile Gloriette;;;44000;-1,558438729504;47,211179655323
+3322,000000000000000;Gare Routière (Bus);10,000000000000000;DEPLACEMENT;1004,000000000000000;Transport en commun;100404,000000000000000;Route;;VERTOU;Rue de l'Hôpital;;;44120;-1,471194831325;47,168915124835
+3227,000000000000000;Parking relais tram Plaisance;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;ST-HERBLAIN;Route de Vannes;;;44800;-1,593440523965;47,240532662020
+3202,000000000000000;Parking relais TER Gare de Vertou Sud;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;VERTOU;Rue du Bois Rigaud;;;44120;-1,478608569977;47,185749806742
+3201,000000000000000;Parking relais TER Gare de Vertou Nord;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;VERTOU;Impasse de la Gare;;;44120;-1,479161854583;47,186402376370
+3200,000000000000000;Parc relais TER Frêne Rond;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;ST-SEBASTIEN;Rue de l'Ouche Quinet;;;44230;-1,496218308948;47,190549257522
+3198,000000000000000;Parking relais tram Goudy;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;NANTES;Rue Gabriel Goudy;;www.tan.fr;44200;-1,541047746943;47,196098946737
+3197,000000000000000;Parking relais tram Pirmil;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;NANTES;Rue Esnoult des Châtelets;;www.tan.fr;44200;-1,541533594554;47,197358677638
+3196,000000000000000;Parking relais tram René Cassin;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;NANTES;Route de la Chapelle Sur Erdre;;www.tan.fr;44300;-1,574997907503;47,263950926010
+3195,000000000000000;Parking relais tram Trocardière;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;REZE;Avenue Léon Blum;;www.tan.fr;44400;-1,571095589405;47,183292745883
+3194,000000000000000;Parking relais tram 8 Mai;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;REZE;Avenue André Malraux;;www.tan.fr;44400;-1,551691451981;47,190177914121
+3192,000000000000000;Parking relais tram La Beaujoire;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;NANTES;Rue Colette;;www.tan.fr;44300;-1,527398470576;47,259483303650
+3191,000000000000000;Parking relais tram Recteur Schmitt;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;NANTES;Rue Recteur Schmitt;;www.tan.fr;44300;-1,552470384647;47,252027701738
+3190,000000000000000;Parking relais Tram François Mitterrand;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;ST-HERBLAIN;Rue Virginia Woolf;;www.tan.fr;44800;-1,639484143055;47,221706200870
+3189,000000000000000;Parking relais tram Le Cardo;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;ORVAULT;Esplanade du Cardo;;www.tan.fr;44700;-1,584511980791;47,262502093615
+3188,000000000000000;Parking relais Tram Frachon;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;ST-HERBLAIN;Boulevard Salvador Allende;;www.tan.fr;44800;-1,621633361782;47,218696136551
+3830,000000000000000;Station Accueil Anatole-France;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;34 Rue Alexandre Dumas;;www.bicloo.nantesmetropole.fr;44000;-1,571392360493;47,223616443722
+3838,000000000000000;Station Abonnement Millerand;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;9 Boulevard Alexandre Millerand;;;44200;-1,530161413494;47,208217819463
+3728,000000000000000;Station Abonnement Machines de l'Ile;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;2 Boulevard Léon Bureau;;www.bicloo.nantesmetropole.fr;44200;-1,564825806150;47,206930260547
+3994,000000000000000;Station Abonnement Rond Point Vannes;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;63B Boulevard Lelasseur;;www.bicloo.nantesmetropole.fr;44000;-1,572012091255;47,229675345348
+3744,000000000000000;Station Accueil Stade Saupin;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;35 Quai de Malakoff;;www.bicloo.nantesmetropole.fr;44000;-1,539639581349;47,213978001005
+3765,000000000000000;Station Accueil Malakoff;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;13 Quai de Malakoff;;www.bicloo.nantesmetropole.fr;44000;-1,536420715916;47,213234526632
+3724,000000000000000;Station Accueil Quai Moncousu;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;10 Quai Moncousu;;www.bicloo.nantesmetropole.fr;44000;-1,555248414263;47,209365456061
+3725,000000000000000;Station Accueil Madeleine;10,000000000000000;DEPLACEMENT;1003,000000000000000;Station Bicloo;;;;NANTES;2 Quai Moncousu;;www.bicloo.nantesmetropole.fr;44000;-1,550430474908;47,208815874652
+3583,000000000000000;Parking relais tram Morlière Paquelais;10,000000000000000;DEPLACEMENT;1002,000000000000000;Parking relais;;;;ORVAULT;50 Avenue de la Paquelais;;;44700;-1,602838747224;47,247823521862

@@ -3,10 +3,7 @@ package fr.ybo.opendata.nantes.modele;
 import fr.ybo.moteurcsv.adapter.AdapterDouble;
 import fr.ybo.moteurcsv.annotation.BaliseCsv;
 import fr.ybo.moteurcsv.annotation.FichierCsv;
-import fr.ybo.opendata.nantes.util.MyAdapteurDouble;
-import fr.ybo.opendata.nantes.util.MyCategorieAdapteur;
-import fr.ybo.opendata.nantes.util.MyThemeAdapteur;
-import fr.ybo.opendata.nantes.util.MyTypeAdapteur;
+import fr.ybo.opendata.nantes.util.*;
 
 /**
  * Classe représentant un équipement.
@@ -16,8 +13,9 @@ public class Equipement {
     /**
      * Identifiant de l'objet.
      */
-    @BaliseCsv("_IDOBJ")
-    private String idObj;
+    @BaliseCsv(value = "_IDOBJ", adapter = MyAdapteurInt.class)
+    private int idObj;
+
     /**
      * Latitude.
      */
@@ -73,7 +71,7 @@ public class Equipement {
     /**
      * @return {@link Equipement#idObj}.
      */
-    public String getIdObj() {
+    public int getIdObj() {
         return idObj;
     }
 

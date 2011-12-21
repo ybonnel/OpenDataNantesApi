@@ -62,7 +62,7 @@ public class Parking implements Serializable {
     /**
      * Identifiant de l'objet.
      */
-    private String idObj;
+    private int idObj;
 
     /**
      * Latitude.
@@ -206,15 +206,15 @@ public class Parking implements Serializable {
     /**
      * @return {@link Parking#idObj}.
      */
-    public String getIdObj() {
+    public int getIdObj() {
         return idObj;
     }
 
     /**
      * @param idObj {@link Parking#idObj}.
      */
-    @BaliseXml(name = "IdObj")
-    public void setIdObj(String idObj) {
+    @BaliseXml(name = "IdObj", type = BaliseType.INTEGER)
+    public void setIdObj(int idObj) {
         this.idObj = idObj;
     }
 

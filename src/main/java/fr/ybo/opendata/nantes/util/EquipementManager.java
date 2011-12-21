@@ -7,6 +7,7 @@ import fr.ybo.opendata.nantes.modele.Parking;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -28,6 +29,17 @@ public class EquipementManager {
      * Instance du singletton.
      */
     private static EquipementManager instance;
+
+    /**
+     * Fichier a chargé qui contient les données de Nantes Métropole sous licence Open Database License (ODbL).
+     * <a href="http://data.nantes.fr/donnees/detail/?tx_icsoddatastore_pi1[page]=1&tx_icsoddatastore_pi1[uid]=45">Telechargement</a>
+     */
+    private static final String EQUIPEMENTS_PUBLICS_DEPLACEMENT_CSV = "/Equipements_publics_deplacement.csv";
+
+    /**
+     * Encoding du fichier fournis par Nantes Métropole.
+     */
+    private static final String CHARSET_NAME = "ISO-8859-15";
 
     /**
      * @return l'instance du singletton.
@@ -68,28 +80,34 @@ public class EquipementManager {
     /**
      * Map des equipements.
      */
-    private Map<String, Equipement> mapEquipements;
+    private Map<Integer, Equipement> mapEquipements;
 
     /**
      * @return {@link EquipementManager#mapEquipements}.
      */
     @SuppressWarnings("unchecked")
-    public Map<String, Equipement> getMapEquipements() {
+    public Map<Integer, Equipement> getMapEquipements() {
         if (mapEquipements == null) {
-            mapEquipements = new HashMap<String, Equipement>();
+            mapEquipements = new HashMap<Integer, Equipement>();
             MoteurCsv moteurCsv = new MoteurCsv(Arrays.<Class<?>>asList(Equipement.class));
-            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(
-                    EquipementManager.class.getResourceAsStream("/Equipements_publics_deplacement.csv")));
+            BufferedReader bufferedReader = null;
             try {
-                moteurCsv.parseFileAndInsert(bufferedReader, Equipement.class,
-                        new EquipementInsertObject(mapEquipements));
-            } finally {
+                bufferedReader = new BufferedReader(new InputStreamReader(
+                        EquipementManager.class.getResourceAsStream(EQUIPEMENTS_PUBLICS_DEPLACEMENT_CSV), CHARSET_NAME));
                 try {
-                    bufferedReader.close();
-                } catch (Exception exception) {
-                    LOGGER.warning(exception.getMessage());
+                    moteurCsv.parseFileAndInsert(bufferedReader, Equipement.class,
+                            new EquipementInsertObject(mapEquipements));
+                } finally {
+                    try {
+                        bufferedReader.close();
+                    } catch (Exception exception) {
+                        LOGGER.warning(exception.getMessage());
+                    }
                 }
+            } catch (UnsupportedEncodingException exception) {
+                LOGGER.warning(exception.getMessage());
             }
+
         }
         return mapEquipements;
     }
@@ -100,14 +118,14 @@ public class EquipementManager {
         /**
          * Map des equipements.
          */
-        private Map<String, Equipement> mapEquipements;
+        private Map<Integer, Equipement> mapEquipements;
 
         /**
          * Constructeur.
          *
          * @param mapEquipements map des équipements.
          */
-        private EquipementInsertObject(Map<String, Equipement> mapEquipements) {
+        private EquipementInsertObject(Map<Integer, Equipement> mapEquipements) {
             this.mapEquipements = mapEquipements;
         }
 

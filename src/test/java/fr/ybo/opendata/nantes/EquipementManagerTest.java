@@ -17,8 +17,8 @@ public class EquipementManagerTest {
      */
     @Test
     public void testParkingLoading() {
-        Map<String, Equipement> map = EquipementManager.getInstance().getMapEquipements();
-        Equipement parkingFeydeau = map.get("3549");
+        Map<Integer, Equipement> map = EquipementManager.getInstance().getMapEquipements();
+        Equipement parkingFeydeau = map.get(3549);
         assertEquals("Parking enclos Feydeau", parkingFeydeau.getNom());
         assertEquals(Theme.DEPLACEMENT, parkingFeydeau.getTheme());
         assertEquals(Categorie.PARKING, parkingFeydeau.getCategorie());
@@ -26,7 +26,7 @@ public class EquipementManagerTest {
         assertEquals(47.211179655323, parkingFeydeau.getLatitude());
         assertEquals(-1.558438729504, parkingFeydeau.getLongitude());
 
-        assertEquals("All�e de l'Ile Gloriette", parkingFeydeau.getAdresse());
+        assertEquals("Allée de l'Ile Gloriette", parkingFeydeau.getAdresse());
         assertEquals("NANTES", parkingFeydeau.getCommune());
         assertEquals("44000", parkingFeydeau.getCodePostal());
     }
