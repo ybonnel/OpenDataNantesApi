@@ -4,6 +4,9 @@ import fr.ybo.moteurcsv.adapter.AdapterDouble;
 import fr.ybo.moteurcsv.annotation.BaliseCsv;
 import fr.ybo.moteurcsv.annotation.FichierCsv;
 import fr.ybo.opendata.nantes.util.MyAdapteurDouble;
+import fr.ybo.opendata.nantes.util.MyCategorieAdapteur;
+import fr.ybo.opendata.nantes.util.MyThemeAdapteur;
+import fr.ybo.opendata.nantes.util.MyTypeAdapteur;
 
 /**
  * Classe représentant un équipement.
@@ -27,6 +30,30 @@ public class Equipement {
     private Double longitude;
 
     /**
+     * Nom.
+     */
+    @BaliseCsv(value = "NOM_COMPLET")
+    private String nom;
+
+    /**
+     * Theme.
+     */
+    @BaliseCsv(value = "THEME", adapter = MyThemeAdapteur.class)
+    private Theme theme;
+
+    /**
+     * Categorie.
+     */
+    @BaliseCsv(value = "CATEGORIE", adapter = MyCategorieAdapteur.class)
+    private Categorie categorie;
+
+    /**
+     * Type.
+     */
+    @BaliseCsv(value = "TYPE", adapter = MyTypeAdapteur.class)
+    private Type type;
+
+    /**
      * @return {@link Equipement#idObj}.
      */
     public String getIdObj() {
@@ -45,5 +72,33 @@ public class Equipement {
      */
     public Double getLongitude() {
         return longitude;
+    }
+
+    /**
+     * @return {@link Equipement#nom}.
+     */
+    public String getNom() {
+        return nom;
+    }
+
+    /**
+     * @return {@link Equipement#theme}.
+     */
+    public Theme getTheme() {
+        return theme;
+    }
+
+    /**
+     * @return {@link Equipement#categorie}.
+     */
+    public Categorie getCategorie() {
+        return categorie;
+    }
+
+    /**
+     * @return {@link Equipement#type}.
+     */
+    public Type getType() {
+        return type;
     }
 }
