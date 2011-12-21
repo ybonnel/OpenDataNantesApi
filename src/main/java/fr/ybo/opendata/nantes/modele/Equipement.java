@@ -52,6 +52,23 @@ public class Equipement {
      */
     @BaliseCsv(value = "TYPE", adapter = MyTypeAdapteur.class)
     private Type type;
+    /**
+     * Commune.
+     */
+    @BaliseCsv("COMMUNE")
+    private String commune;
+
+    /**
+     * Adresse postale.
+     */
+    @BaliseCsv("ADRESSE")
+    private String adresse;
+
+    /**
+     * Code postal.
+     */
+    @BaliseCsv("CODE_POSTAL")
+    private String codePostal;
 
     /**
      * @return {@link Equipement#idObj}.
@@ -101,4 +118,26 @@ public class Equipement {
     public Type getType() {
         return type;
     }
+
+    /**
+     * @return {@link Equipement#commune}.
+     */
+    public String getCommune() {
+        return commune;
+    }
+
+    /**
+     * @return {@link Equipement#adresse}.
+     */
+    public String getAdresse() {
+        return adresse;
+    }
+
+    /**
+     * @return {@link Equipement#codePostal}.
+     */
+    public String getCodePostal() {
+        return codePostal;
+    }
+
 }

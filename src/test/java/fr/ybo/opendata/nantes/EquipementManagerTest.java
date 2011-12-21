@@ -25,5 +25,9 @@ public class EquipementManagerTest {
         assertEquals(null, parkingFeydeau.getType());
         assertEquals(47.211179655323, parkingFeydeau.getLatitude());
         assertEquals(-1.558438729504, parkingFeydeau.getLongitude());
+
+        assertEquals("All�e de l'Ile Gloriette", parkingFeydeau.getAdresse());
+        assertEquals("NANTES", parkingFeydeau.getCommune());
+        assertEquals("44000", parkingFeydeau.getCodePostal());
     }
 }
