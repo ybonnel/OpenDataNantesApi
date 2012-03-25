@@ -169,20 +169,6 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/ybonnel/OpenDataNantesApi/checkstyle.html#fr.ybo.opendata.nantes.modele.StatusApi.java">fr/ybo/opendata/nantes/modele/StatusApi.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="https://github.com/ybonnel/OpenDataNantesApi/checkstyle.html#fr.ybo.opendata.nantes.modele.Parking.java">fr/ybo/opendata/nantes/modele/Parking.java</a>
                 </td>
                 <td>
@@ -197,7 +183,7 @@
               </tr>
                           <tr>
                 <td>
-                  <a href="https://github.com/ybonnel/OpenDataNantesApi/checkstyle.html#fr.ybo.opendata.nantes.modele.Itineraire.java">fr/ybo/opendata/nantes/modele/Itineraire.java</a>
+                  <a href="https://github.com/ybonnel/OpenDataNantesApi/checkstyle.html#fr.ybo.opendata.nantes.modele.StatusApi.java">fr/ybo/opendata/nantes/modele/StatusApi.java</a>
                 </td>
                 <td>
                   0
@@ -218,6 +204,20 @@
                 </td>
                 <td>
                   2
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="https://github.com/ybonnel/OpenDataNantesApi/checkstyle.html#fr.ybo.opendata.nantes.modele.Itineraire.java">fr/ybo/opendata/nantes/modele/Itineraire.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
                 </td>
                 <td>
                   0

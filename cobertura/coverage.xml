@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
 
-<coverage line-rate="0.8651911468812877" branch-rate="0.7714285714285715" lines-covered="430" lines-valid="497" branches-covered="54" branches-valid="70" complexity="1.5714285714285714" version="1.9.4.1" timestamp="1328822344837">
+<coverage line-rate="0.8651911468812877" branch-rate="0.7714285714285715" lines-covered="430" lines-valid="497" branches-covered="54" branches-valid="70" complexity="1.5714285714285714" version="1.9.4.1" timestamp="1332692312751">
 	<sources>
 		<source>--source</source>
 		<source>/scratch/hudson/workspace/OpenDataNantesApi-release/src/main/java</source>
@@ -81,14 +81,14 @@
 										<condition number="0" type="jump" coverage="100 %"/>
 									</conditions>
 								</line>
-								<line number="110" hits="1" branch="false"/>
-								<line number="112" hits="24" branch="true" condition-coverage="50 % (1/2)">
+								<line number="110" hits="2" branch="false"/>
+								<line number="112" hits="23" branch="true" condition-coverage="50 % (1/2)">
 									<conditions>
 										<condition number="0" type="jump" coverage="50 %"/>
 									</conditions>
 								</line>
 								<line number="113" hits="0" branch="false"/>
-								<line number="115" hits="24" branch="false"/>
+								<line number="115" hits="23" branch="false"/>
 								<line number="118" hits="25" branch="false"/>
 								<line number="119" hits="2" branch="false"/>
 								<line number="120" hits="2" branch="false"/>
@@ -137,14 +137,14 @@
 								<condition number="0" type="jump" coverage="100 %"/>
 							</conditions>
 						</line>
-						<line number="110" hits="1" branch="false"/>
-						<line number="112" hits="24" branch="true" condition-coverage="50 % (1/2)">
+						<line number="110" hits="2" branch="false"/>
+						<line number="112" hits="23" branch="true" condition-coverage="50 % (1/2)">
 							<conditions>
 								<condition number="0" type="jump" coverage="50 %"/>
 							</conditions>
 						</line>
 						<line number="113" hits="0" branch="false"/>
-						<line number="115" hits="24" branch="false"/>
+						<line number="115" hits="23" branch="false"/>
 						<line number="118" hits="25" branch="false"/>
 						<line number="119" hits="2" branch="false"/>
 						<line number="120" hits="2" branch="false"/>
@@ -246,13 +246,13 @@
 						</method>
 						<method name="getData" signature="()Ljava/util/List;" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="40" hits="45" branch="true" condition-coverage="100 % (2/2)">
+								<line number="40" hits="44" branch="true" condition-coverage="100 % (2/2)">
 									<conditions>
 										<condition number="0" type="jump" coverage="100 %"/>
 									</conditions>
 								</line>
 								<line number="41" hits="6" branch="false"/>
-								<line number="43" hits="45" branch="false"/>
+								<line number="43" hits="44" branch="false"/>
 							</lines>
 						</method>
 						<method name="getStatus" signature="()Lfr/ybo/opendata/nantes/modele/StatusApi;" line-rate="1.0" branch-rate="1.0">
@@ -269,13 +269,13 @@
 					</methods>
 					<lines>
 						<line number="25" hits="6" branch="false"/>
-						<line number="40" hits="45" branch="true" condition-coverage="100 % (2/2)">
+						<line number="40" hits="44" branch="true" condition-coverage="100 % (2/2)">
 							<conditions>
 								<condition number="0" type="jump" coverage="100 %"/>
 							</conditions>
 						</line>
 						<line number="41" hits="6" branch="false"/>
-						<line number="43" hits="45" branch="false"/>
+						<line number="43" hits="44" branch="false"/>
 						<line number="52" hits="30" branch="false"/>
 						<line number="61" hits="6" branch="false"/>
 						<line number="62" hits="6" branch="false"/>
@@ -495,12 +495,12 @@
 						</method>
 						<method name="getLatitude" signature="()Ljava/lang/Double;" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="82" hits="25" branch="false"/>
+								<line number="82" hits="24" branch="false"/>
 							</lines>
 						</method>
 						<method name="getLongitude" signature="()Ljava/lang/Double;" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="89" hits="25" branch="false"/>
+								<line number="89" hits="24" branch="false"/>
 							</lines>
 						</method>
 						<method name="getNom" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
@@ -522,8 +522,8 @@
 					<lines>
 						<line number="12" hits="191" branch="false"/>
 						<line number="75" hits="191" branch="false"/>
-						<line number="82" hits="25" branch="false"/>
-						<line number="89" hits="25" branch="false"/>
+						<line number="82" hits="24" branch="false"/>
+						<line number="89" hits="24" branch="false"/>
 						<line number="96" hits="1" branch="false"/>
 						<line number="103" hits="1" branch="false"/>
 						<line number="110" hits="1" branch="false"/>
@@ -543,7 +543,7 @@
 						</method>
 						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="15" hits="12" branch="false"/>
+								<line number="15" hits="11" branch="false"/>
 							</lines>
 						</method>
 						<method name="getCode" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
@@ -588,97 +588,97 @@
 						</method>
 						<method name="setCode" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="62" hits="12" branch="false"/>
-								<line number="63" hits="12" branch="false"/>
+								<line number="62" hits="11" branch="false"/>
+								<line number="63" hits="11" branch="false"/>
 							</lines>
 						</method>
 						<method name="setDateDebut" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="132" hits="12" branch="false"/>
-								<line number="133" hits="12" branch="false"/>
+								<line number="132" hits="11" branch="false"/>
+								<line number="133" hits="11" branch="false"/>
 							</lines>
 						</method>
 						<method name="setDateFin" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="148" hits="11" branch="false"/>
-								<line number="149" hits="11" branch="false"/>
+								<line number="148" hits="10" branch="false"/>
+								<line number="149" hits="10" branch="false"/>
 							</lines>
 						</method>
 						<method name="setHeureDebut" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="158" hits="5" branch="false"/>
-								<line number="159" hits="5" branch="false"/>
+								<line number="158" hits="9" branch="false"/>
+								<line number="159" hits="9" branch="false"/>
 							</lines>
 						</method>
 						<method name="setHeureFin" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="168" hits="5" branch="false"/>
-								<line number="169" hits="5" branch="false"/>
+								<line number="168" hits="9" branch="false"/>
+								<line number="169" hits="9" branch="false"/>
 							</lines>
 						</method>
 						<method name="setIntitule" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="77" hits="12" branch="false"/>
-								<line number="78" hits="12" branch="false"/>
+								<line number="77" hits="11" branch="false"/>
+								<line number="78" hits="11" branch="false"/>
 							</lines>
 						</method>
 						<method name="setResume" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="92" hits="12" branch="false"/>
-								<line number="93" hits="12" branch="false"/>
+								<line number="92" hits="11" branch="false"/>
+								<line number="93" hits="11" branch="false"/>
 							</lines>
 						</method>
 						<method name="setTerminee" signature="(Z)V" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="183" hits="12" branch="false"/>
-								<line number="184" hits="12" branch="false"/>
+								<line number="183" hits="11" branch="false"/>
+								<line number="184" hits="11" branch="false"/>
 							</lines>
 						</method>
 						<method name="setTexteVocal" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="107" hits="12" branch="false"/>
-								<line number="108" hits="12" branch="false"/>
+								<line number="107" hits="9" branch="false"/>
+								<line number="108" hits="9" branch="false"/>
 							</lines>
 						</method>
 						<method name="setTroncons" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="198" hits="11" branch="false"/>
-								<line number="199" hits="11" branch="false"/>
+								<line number="198" hits="10" branch="false"/>
+								<line number="199" hits="10" branch="false"/>
 							</lines>
 						</method>
 					</methods>
 					<lines>
-						<line number="15" hits="12" branch="false"/>
+						<line number="15" hits="11" branch="false"/>
 						<line number="54" hits="2" branch="false"/>
-						<line number="62" hits="12" branch="false"/>
-						<line number="63" hits="12" branch="false"/>
+						<line number="62" hits="11" branch="false"/>
+						<line number="63" hits="11" branch="false"/>
 						<line number="69" hits="2" branch="false"/>
-						<line number="77" hits="12" branch="false"/>
-						<line number="78" hits="12" branch="false"/>
+						<line number="77" hits="11" branch="false"/>
+						<line number="78" hits="11" branch="false"/>
 						<line number="84" hits="4" branch="false"/>
-						<line number="92" hits="12" branch="false"/>
-						<line number="93" hits="12" branch="false"/>
+						<line number="92" hits="11" branch="false"/>
+						<line number="93" hits="11" branch="false"/>
 						<line number="99" hits="2" branch="false"/>
-						<line number="107" hits="12" branch="false"/>
-						<line number="108" hits="12" branch="false"/>
+						<line number="107" hits="9" branch="false"/>
+						<line number="108" hits="9" branch="false"/>
 						<line number="114" hits="4" branch="false"/>
 						<line number="120" hits="1" branch="false"/>
 						<line number="124" hits="1" branch="false"/>
-						<line number="132" hits="12" branch="false"/>
-						<line number="133" hits="12" branch="false"/>
+						<line number="132" hits="11" branch="false"/>
+						<line number="133" hits="11" branch="false"/>
 						<line number="139" hits="4" branch="false"/>
-						<line number="148" hits="11" branch="false"/>
-						<line number="149" hits="11" branch="false"/>
-						<line number="158" hits="5" branch="false"/>
-						<line number="159" hits="5" branch="false"/>
-						<line number="168" hits="5" branch="false"/>
-						<line number="169" hits="5" branch="false"/>
+						<line number="148" hits="10" branch="false"/>
+						<line number="149" hits="10" branch="false"/>
+						<line number="158" hits="9" branch="false"/>
+						<line number="159" hits="9" branch="false"/>
+						<line number="168" hits="9" branch="false"/>
+						<line number="169" hits="9" branch="false"/>
 						<line number="175" hits="4" branch="false"/>
-						<line number="183" hits="12" branch="false"/>
-						<line number="184" hits="12" branch="false"/>
+						<line number="183" hits="11" branch="false"/>
+						<line number="184" hits="11" branch="false"/>
 						<line number="190" hits="3" branch="false"/>
-						<line number="198" hits="11" branch="false"/>
-						<line number="199" hits="11" branch="false"/>
+						<line number="198" hits="10" branch="false"/>
+						<line number="199" hits="10" branch="false"/>
 					</lines>
 				</class>
 				<class name="fr.ybo.opendata.nantes.modele.Itineraire" filename="fr/ybo/opendata/nantes/modele/Itineraire.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
@@ -775,12 +775,12 @@
 						</method>
 						<method name="getIdObj" signature="()I" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="210" hits="24" branch="false"/>
+								<line number="210" hits="23" branch="false"/>
 							</lines>
 						</method>
 						<method name="getIdentifiant" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="81" hits="49" branch="false"/>
+								<line number="81" hits="47" branch="false"/>
 							</lines>
 						</method>
 						<method name="getLastUpdate" signature="()Ljava/util/Date;" line-rate="1.0" branch-rate="1.0">
@@ -790,7 +790,7 @@
 						</method>
 						<method name="getLatitude" signature="()Ljava/lang/Double;" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="225" hits="24" branch="false"/>
+								<line number="225" hits="23" branch="false"/>
 							</lines>
 						</method>
 						<method name="getLongitude" signature="()Ljava/lang/Double;" line-rate="1.0" branch-rate="1.0">
@@ -852,14 +852,14 @@
 						</method>
 						<method name="setLatitude" signature="(Ljava/lang/Double;)V" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="232" hits="24" branch="false"/>
-								<line number="233" hits="24" branch="false"/>
+								<line number="232" hits="23" branch="false"/>
+								<line number="233" hits="23" branch="false"/>
 							</lines>
 						</method>
 						<method name="setLongitude" signature="(Ljava/lang/Double;)V" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="246" hits="24" branch="false"/>
-								<line number="247" hits="24" branch="false"/>
+								<line number="246" hits="23" branch="false"/>
+								<line number="247" hits="23" branch="false"/>
 							</lines>
 						</method>
 						<method name="setNom" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
@@ -896,7 +896,7 @@
 					<lines>
 						<line number="17" hits="25" branch="false"/>
 						<line number="21" hits="1" branch="false"/>
-						<line number="81" hits="49" branch="false"/>
+						<line number="81" hits="47" branch="false"/>
 						<line number="89" hits="25" branch="false"/>
 						<line number="90" hits="25" branch="false"/>
 						<line number="96" hits="1" branch="false"/>
@@ -924,15 +924,15 @@
 						<line number="202" hits="0" branch="false"/>
 						<line number="203" hits="25" branch="false"/>
 						<line number="204" hits="25" branch="false"/>
-						<line number="210" hits="24" branch="false"/>
+						<line number="210" hits="23" branch="false"/>
 						<line number="218" hits="25" branch="false"/>
 						<line number="219" hits="25" branch="false"/>
-						<line number="225" hits="24" branch="false"/>
-						<line number="232" hits="24" branch="false"/>
-						<line number="233" hits="24" branch="false"/>
+						<line number="225" hits="23" branch="false"/>
+						<line number="232" hits="23" branch="false"/>
+						<line number="233" hits="23" branch="false"/>
 						<line number="239" hits="1" branch="false"/>
-						<line number="246" hits="24" branch="false"/>
-						<line number="247" hits="24" branch="false"/>
+						<line number="246" hits="23" branch="false"/>
+						<line number="247" hits="23" branch="false"/>
 					</lines>
 				</class>
 				<class name="fr.ybo.opendata.nantes.modele.StatusApi" filename="fr/ybo/opendata/nantes/modele/StatusApi.java" line-rate="0.8571428571428571" branch-rate="1.0" complexity="1.0">
@@ -995,12 +995,12 @@
 						</method>
 						<method name="fromValue" signature="(I)Lfr/ybo/opendata/nantes/modele/StatutParking;" line-rate="0.75" branch-rate="0.75">
 							<lines>
-								<line number="47" hits="96" branch="true" condition-coverage="50 % (1/2)">
+								<line number="47" hits="93" branch="true" condition-coverage="50 % (1/2)">
 									<conditions>
 										<condition number="0" type="jump" coverage="50 %"/>
 									</conditions>
 								</line>
-								<line number="48" hits="96" branch="true" condition-coverage="100 % (2/2)">
+								<line number="48" hits="93" branch="true" condition-coverage="100 % (2/2)">
 									<conditions>
 										<condition number="0" type="jump" coverage="100 %"/>
 									</conditions>
@@ -1027,12 +1027,12 @@
 						<line number="36" hits="4" branch="false"/>
 						<line number="37" hits="4" branch="false"/>
 						<line number="38" hits="4" branch="false"/>
-						<line number="47" hits="96" branch="true" condition-coverage="50 % (1/2)">
+						<line number="47" hits="93" branch="true" condition-coverage="50 % (1/2)">
 							<conditions>
 								<condition number="0" type="jump" coverage="50 %"/>
 							</conditions>
 						</line>
-						<line number="48" hits="96" branch="true" condition-coverage="100 % (2/2)">
+						<line number="48" hits="93" branch="true" condition-coverage="100 % (2/2)">
 							<conditions>
 								<condition number="0" type="jump" coverage="100 %"/>
 							</conditions>
@@ -1346,38 +1346,38 @@
 						</method>
 						<method name="characters" signature="([CII)V" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="64" hits="749" branch="false"/>
-								<line number="65" hits="749" branch="false"/>
-								<line number="66" hits="749" branch="false"/>
+								<line number="64" hits="748" branch="false"/>
+								<line number="65" hits="748" branch="false"/>
+								<line number="66" hits="748" branch="false"/>
 							</lines>
 						</method>
 						<method name="endElement" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V" line-rate="1.0" branch-rate="0.75">
 							<lines>
-								<line number="70" hits="443" branch="false"/>
-								<line number="71" hits="443" branch="true" condition-coverage="100 % (2/2)">
+								<line number="70" hits="431" branch="false"/>
+								<line number="71" hits="431" branch="true" condition-coverage="100 % (2/2)">
 									<conditions>
 										<condition number="0" type="jump" coverage="100 %"/>
 									</conditions>
 								</line>
-								<line number="72" hits="437" branch="true" condition-coverage="100 % (2/2)">
+								<line number="72" hits="425" branch="true" condition-coverage="100 % (2/2)">
 									<conditions>
 										<condition number="0" type="jump" coverage="100 %"/>
 									</conditions>
 								</line>
-								<line number="73" hits="39" branch="false"/>
-								<line number="75" hits="398" branch="true" condition-coverage="50 % (1/2)">
+								<line number="73" hits="38" branch="false"/>
+								<line number="75" hits="387" branch="true" condition-coverage="50 % (1/2)">
 									<conditions>
 										<condition number="0" type="jump" coverage="50 %"/>
 									</conditions>
 								</line>
-								<line number="76" hits="398" branch="false"/>
-								<line number="79" hits="437" branch="true" condition-coverage="50 % (1/2)">
+								<line number="76" hits="387" branch="false"/>
+								<line number="79" hits="425" branch="true" condition-coverage="50 % (1/2)">
 									<conditions>
 										<condition number="0" type="jump" coverage="50 %"/>
 									</conditions>
 								</line>
-								<line number="80" hits="437" branch="false"/>
-								<line number="83" hits="443" branch="false"/>
+								<line number="80" hits="425" branch="false"/>
+								<line number="83" hits="431" branch="false"/>
 							</lines>
 						</method>
 						<method name="getAnswer" signature="()Lfr/ybo/opendata/nantes/modele/Answer;" line-rate="1.0" branch-rate="1.0">
@@ -1394,14 +1394,14 @@
 						</method>
 						<method name="startElement" signature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/Attributes;)V" line-rate="1.0" branch-rate="0.875">
 							<lines>
-								<line number="125" hits="443" branch="false"/>
-								<line number="126" hits="443" branch="true" condition-coverage="100 % (2/2)">
+								<line number="125" hits="431" branch="false"/>
+								<line number="126" hits="431" branch="true" condition-coverage="100 % (2/2)">
 									<conditions>
 										<condition number="0" type="jump" coverage="100 %"/>
 									</conditions>
 								</line>
 								<line number="127" hits="6" branch="false"/>
-								<line number="128" hits="437" branch="true" condition-coverage="75 % (3/4)">
+								<line number="128" hits="425" branch="true" condition-coverage="75 % (3/4)">
 									<conditions>
 										<condition number="0" type="jump" coverage="100 %"/>
 										<condition number="1" type="jump" coverage="50 %"/>
@@ -1410,59 +1410,59 @@
 								<line number="129" hits="6" branch="false"/>
 								<line number="130" hits="6" branch="false"/>
 								<line number="131" hits="6" branch="false"/>
-								<line number="132" hits="431" branch="true" condition-coverage="100 % (2/2)">
+								<line number="132" hits="419" branch="true" condition-coverage="100 % (2/2)">
 									<conditions>
 										<condition number="0" type="jump" coverage="100 %"/>
 									</conditions>
 								</line>
-								<line number="133" hits="39" branch="false"/>
-								<line number="135" hits="443" branch="false"/>
-								<line number="136" hits="443" branch="false"/>
+								<line number="133" hits="38" branch="false"/>
+								<line number="135" hits="431" branch="false"/>
+								<line number="136" hits="431" branch="false"/>
 							</lines>
 						</method>
 					</methods>
 					<lines>
 						<line number="27" hits="6" branch="false"/>
-						<line number="64" hits="749" branch="false"/>
-						<line number="65" hits="749" branch="false"/>
-						<line number="66" hits="749" branch="false"/>
-						<line number="70" hits="443" branch="false"/>
-						<line number="71" hits="443" branch="true" condition-coverage="100 % (2/2)">
+						<line number="64" hits="748" branch="false"/>
+						<line number="65" hits="748" branch="false"/>
+						<line number="66" hits="748" branch="false"/>
+						<line number="70" hits="431" branch="false"/>
+						<line number="71" hits="431" branch="true" condition-coverage="100 % (2/2)">
 							<conditions>
 								<condition number="0" type="jump" coverage="100 %"/>
 							</conditions>
 						</line>
-						<line number="72" hits="437" branch="true" condition-coverage="100 % (2/2)">
+						<line number="72" hits="425" branch="true" condition-coverage="100 % (2/2)">
 							<conditions>
 								<condition number="0" type="jump" coverage="100 %"/>
 							</conditions>
 						</line>
-						<line number="73" hits="39" branch="false"/>
-						<line number="75" hits="398" branch="true" condition-coverage="50 % (1/2)">
+						<line number="73" hits="38" branch="false"/>
+						<line number="75" hits="387" branch="true" condition-coverage="50 % (1/2)">
 							<conditions>
 								<condition number="0" type="jump" coverage="50 %"/>
 							</conditions>
 						</line>
-						<line number="76" hits="398" branch="false"/>
-						<line number="79" hits="437" branch="true" condition-coverage="50 % (1/2)">
+						<line number="76" hits="387" branch="false"/>
+						<line number="79" hits="425" branch="true" condition-coverage="50 % (1/2)">
 							<conditions>
 								<condition number="0" type="jump" coverage="50 %"/>
 							</conditions>
 						</line>
-						<line number="80" hits="437" branch="false"/>
-						<line number="83" hits="443" branch="false"/>
+						<line number="80" hits="425" branch="false"/>
+						<line number="83" hits="431" branch="false"/>
 						<line number="91" hits="6" branch="false"/>
 						<line number="119" hits="6" branch="false"/>
 						<line number="120" hits="6" branch="false"/>
 						<line number="121" hits="6" branch="false"/>
-						<line number="125" hits="443" branch="false"/>
-						<line number="126" hits="443" branch="true" condition-coverage="100 % (2/2)">
+						<line number="125" hits="431" branch="false"/>
+						<line number="126" hits="431" branch="true" condition-coverage="100 % (2/2)">
 							<conditions>
 								<condition number="0" type="jump" coverage="100 %"/>
 							</conditions>
 						</line>
 						<line number="127" hits="6" branch="false"/>
-						<line number="128" hits="437" branch="true" condition-coverage="75 % (3/4)">
+						<line number="128" hits="425" branch="true" condition-coverage="75 % (3/4)">
 							<conditions>
 								<condition number="0" type="jump" coverage="100 %"/>
 								<condition number="1" type="jump" coverage="50 %"/>
@@ -1471,14 +1471,14 @@
 						<line number="129" hits="6" branch="false"/>
 						<line number="130" hits="6" branch="false"/>
 						<line number="131" hits="6" branch="false"/>
-						<line number="132" hits="431" branch="true" condition-coverage="100 % (2/2)">
+						<line number="132" hits="419" branch="true" condition-coverage="100 % (2/2)">
 							<conditions>
 								<condition number="0" type="jump" coverage="100 %"/>
 							</conditions>
 						</line>
-						<line number="133" hits="39" branch="false"/>
-						<line number="135" hits="443" branch="false"/>
-						<line number="136" hits="443" branch="false"/>
+						<line number="133" hits="38" branch="false"/>
+						<line number="135" hits="431" branch="false"/>
+						<line number="136" hits="431" branch="false"/>
 					</lines>
 				</class>
 				<class name="fr.ybo.opendata.nantes.sax.BaliseData" filename="fr/ybo/opendata/nantes/sax/BaliseData.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
@@ -1532,13 +1532,13 @@
 						</method>
 						<method name="convertir" signature="(Ljava/lang/String;)Ljava/lang/Object;" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="27" hits="171" branch="false"/>
+								<line number="27" hits="170" branch="false"/>
 							</lines>
 						</method>
 					</methods>
 					<lines>
 						<line number="24" hits="1" branch="false"/>
-						<line number="27" hits="171" branch="false"/>
+						<line number="27" hits="170" branch="false"/>
 					</lines>
 				</class>
 				<class name="fr.ybo.opendata.nantes.sax.BaliseType$2" filename="fr/ybo/opendata/nantes/sax/BaliseType.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
@@ -1550,13 +1550,13 @@
 						</method>
 						<method name="convertir" signature="(Ljava/lang/String;)Ljava/lang/Object;" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="36" hits="14" branch="false"/>
+								<line number="36" hits="13" branch="false"/>
 							</lines>
 						</method>
 					</methods>
 					<lines>
 						<line number="33" hits="1" branch="false"/>
-						<line number="36" hits="14" branch="false"/>
+						<line number="36" hits="13" branch="false"/>
 					</lines>
 				</class>
 				<class name="fr.ybo.opendata.nantes.sax.BaliseType$3" filename="fr/ybo/opendata/nantes/sax/BaliseType.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
@@ -1644,12 +1644,12 @@
 						</method>
 						<method name="getBaliseData" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="81" hits="868" branch="false"/>
+								<line number="81" hits="844" branch="false"/>
 							</lines>
 						</method>
 						<method name="getNewObjet" signature="()Ljava/lang/Object;" line-rate="0.14285714285714285" branch-rate="1.0">
 							<lines>
-								<line number="87" hits="39" branch="false"/>
+								<line number="87" hits="38" branch="false"/>
 								<line number="88" hits="0" branch="false"/>
 								<line number="89" hits="0" branch="false"/>
 								<line number="90" hits="0" branch="false"/>
@@ -1660,25 +1660,25 @@
 						</method>
 						<method name="remplirObject" signature="(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;)V" line-rate="0.5555555555555556" branch-rate="0.75">
 							<lines>
-								<line number="99" hits="398" branch="true" condition-coverage="100 % (4/4)">
+								<line number="99" hits="387" branch="true" condition-coverage="100 % (4/4)">
 									<conditions>
 										<condition number="0" type="jump" coverage="100 %"/>
 										<condition number="1" type="jump" coverage="100 %"/>
 									</conditions>
 								</line>
-								<line number="101" hits="337" branch="true" condition-coverage="50 % (2/4)">
+								<line number="101" hits="335" branch="true" condition-coverage="50 % (2/4)">
 									<conditions>
 										<condition number="0" type="jump" coverage="50 %"/>
 										<condition number="1" type="jump" coverage="50 %"/>
 									</conditions>
 								</line>
-								<line number="102" hits="337" branch="false"/>
+								<line number="102" hits="335" branch="false"/>
 								<line number="105" hits="0" branch="false"/>
 								<line number="106" hits="0" branch="false"/>
 								<line number="108" hits="0" branch="false"/>
 								<line number="109" hits="0" branch="false"/>
-								<line number="111" hits="337" branch="false"/>
-								<line number="113" hits="398" branch="false"/>
+								<line number="111" hits="335" branch="false"/>
+								<line number="113" hits="387" branch="false"/>
 							</lines>
 						</method>
 					</methods>
@@ -1718,33 +1718,33 @@
 						<line number="73" hits="52" branch="false"/>
 						<line number="74" hits="52" branch="false"/>
 						<line number="77" hits="6" branch="false"/>
-						<line number="81" hits="868" branch="false"/>
-						<line number="87" hits="39" branch="false"/>
+						<line number="81" hits="844" branch="false"/>
+						<line number="87" hits="38" branch="false"/>
 						<line number="88" hits="0" branch="false"/>
 						<line number="89" hits="0" branch="false"/>
 						<line number="90" hits="0" branch="false"/>
 						<line number="91" hits="0" branch="false"/>
 						<line number="92" hits="0" branch="false"/>
 						<line number="93" hits="0" branch="false"/>
-						<line number="99" hits="398" branch="true" condition-coverage="100 % (4/4)">
+						<line number="99" hits="387" branch="true" condition-coverage="100 % (4/4)">
 							<conditions>
 								<condition number="0" type="jump" coverage="100 %"/>
 								<condition number="1" type="jump" coverage="100 %"/>
 							</conditions>
 						</line>
-						<line number="101" hits="337" branch="true" condition-coverage="50 % (2/4)">
+						<line number="101" hits="335" branch="true" condition-coverage="50 % (2/4)">
 							<conditions>
 								<condition number="0" type="jump" coverage="50 %"/>
 								<condition number="1" type="jump" coverage="50 %"/>
 							</conditions>
 						</line>
-						<line number="102" hits="337" branch="false"/>
+						<line number="102" hits="335" branch="false"/>
 						<line number="105" hits="0" branch="false"/>
 						<line number="106" hits="0" branch="false"/>
 						<line number="108" hits="0" branch="false"/>
 						<line number="109" hits="0" branch="false"/>
-						<line number="111" hits="337" branch="false"/>
-						<line number="113" hits="398" branch="false"/>
+						<line number="111" hits="335" branch="false"/>
+						<line number="113" hits="387" branch="false"/>
 					</lines>
 				</class>
 			</classes>
@@ -1772,16 +1772,16 @@
 						</method>
 						<method name="completeParking" signature="(Lfr/ybo/opendata/nantes/modele/Parking;)V" line-rate="0.8333333333333334" branch-rate="0.5">
 							<lines>
-								<line number="71" hits="24" branch="false"/>
-								<line number="72" hits="24" branch="true" condition-coverage="50 % (1/2)">
+								<line number="71" hits="23" branch="false"/>
+								<line number="72" hits="23" branch="true" condition-coverage="50 % (1/2)">
 									<conditions>
 										<condition number="0" type="jump" coverage="50 %"/>
 									</conditions>
 								</line>
 								<line number="73" hits="0" branch="false"/>
-								<line number="75" hits="24" branch="false"/>
-								<line number="76" hits="24" branch="false"/>
-								<line number="78" hits="24" branch="false"/>
+								<line number="75" hits="23" branch="false"/>
+								<line number="76" hits="23" branch="false"/>
+								<line number="78" hits="23" branch="false"/>
 							</lines>
 						</method>
 						<method name="completeParkings" signature="(Ljava/util/List;)V" line-rate="1.0" branch-rate="1.0">
@@ -1791,7 +1791,7 @@
 										<condition number="0" type="jump" coverage="100 %"/>
 									</conditions>
 								</line>
-								<line number="61" hits="24" branch="false"/>
+								<line number="61" hits="23" branch="false"/>
 								<line number="63" hits="2" branch="false"/>
 							</lines>
 						</method>
@@ -1808,7 +1808,7 @@
 						</method>
 						<method name="getMapEquipements" signature="()Ljava/util/Map;" line-rate="0.625" branch-rate="1.0">
 							<lines>
-								<line number="90" hits="25" branch="true" condition-coverage="100 % (2/2)">
+								<line number="90" hits="24" branch="true" condition-coverage="100 % (2/2)">
 									<conditions>
 										<condition number="0" type="jump" coverage="100 %"/>
 									</conditions>
@@ -1827,7 +1827,7 @@
 								<line number="107" hits="0" branch="false"/>
 								<line number="108" hits="0" branch="false"/>
 								<line number="109" hits="1" branch="false"/>
-								<line number="112" hits="25" branch="false"/>
+								<line number="112" hits="24" branch="false"/>
 							</lines>
 						</method>
 					</methods>
@@ -1846,19 +1846,19 @@
 								<condition number="0" type="jump" coverage="100 %"/>
 							</conditions>
 						</line>
-						<line number="61" hits="24" branch="false"/>
+						<line number="61" hits="23" branch="false"/>
 						<line number="63" hits="2" branch="false"/>
-						<line number="71" hits="24" branch="false"/>
-						<line number="72" hits="24" branch="true" condition-coverage="50 % (1/2)">
+						<line number="71" hits="23" branch="false"/>
+						<line number="72" hits="23" branch="true" condition-coverage="50 % (1/2)">
 							<conditions>
 								<condition number="0" type="jump" coverage="50 %"/>
 							</conditions>
 						</line>
 						<line number="73" hits="0" branch="false"/>
-						<line number="75" hits="24" branch="false"/>
-						<line number="76" hits="24" branch="false"/>
-						<line number="78" hits="24" branch="false"/>
-						<line number="90" hits="25" branch="true" condition-coverage="100 % (2/2)">
+						<line number="75" hits="23" branch="false"/>
+						<line number="76" hits="23" branch="false"/>
+						<line number="78" hits="23" branch="false"/>
+						<line number="90" hits="24" branch="true" condition-coverage="100 % (2/2)">
 							<conditions>
 								<condition number="0" type="jump" coverage="100 %"/>
 							</conditions>
@@ -1877,7 +1877,7 @@
 						<line number="107" hits="0" branch="false"/>
 						<line number="108" hits="0" branch="false"/>
 						<line number="109" hits="1" branch="false"/>
-						<line number="112" hits="25" branch="false"/>
+						<line number="112" hits="24" branch="false"/>
 						<line number="117" hits="1" branch="false"/>
 					</lines>
 				</class>
