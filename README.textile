@@ -1,6 +1,6 @@
 h1. OpenDataNantesApi
 
-Il s'agit d'un librairie Java pour permettre l'accès aux API temps réelles du site data.nantes.fr
+Il s'agit d'une librairie Java pour permettre l'accès aux API temps réelles du site data.nantes.fr
 
 h1. License
 
